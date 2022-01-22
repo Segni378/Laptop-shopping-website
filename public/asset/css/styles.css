@@ -83,7 +83,6 @@ body{
     flex-grow: 2;
     margin-left: 10px;
     position: relative;
-    padding : 35px;
 }
 
 /* Shop by ____ title Style */ 
@@ -112,8 +111,13 @@ body{
 
 }
 
-.cat-shop-by-brand {
+.cat-shop-by-brand, .cat-shop-by-price, .cat-shop-by-processor {
     padding : 15px;
+}
+.cat-shop-by-brand-container {
+    background-color: #F3F3F3;
+    padding-top: 10px;
+    margin-bottom: 10px;
 }
 .cat-available-brands, .cat-available-size {
     display: grid;
@@ -127,16 +131,23 @@ body{
 /* Shop by brand image styles */
 
 .cat-brand-img {
-    max-width: 300px;
-    height: 365px;
+    max-width: 250px;
+    height: 300px;
     background-repeat: no-repeat;
     background-size: 100% 100%;
     background-position: center center;
-    transition: all 0.4s ease-in-out;
+  
+    overflow: hidden;
 }
-.cat-brand-img:hover, .cat-shop-by-size-img:hover {
-    background-size: 105% 105%;
-    box-shadow: 3px 1px 5px rgba(0, 0, 0, 0.08);
+.cat-brand-img img {
+    width: 100%;
+    object-fit: cover;
+      transition: all 0.4s ease-in-out;
+    
+
+}
+.cat-brand-img:hover img {
+    transform: scale(1.03);
 }
 
 /* shop by size image styles */
@@ -145,18 +156,138 @@ body{
     max-width: 250px;
     height: 250px;
     border-radius: 50%;
-    background-repeat: no-repeat;
-    background-size: 100% 100%;
-    background-position: center center;
-    transition: all 0.4s ease-in-out;
+    
     margin-bottom: 15px;
 }
 
+.cat-shop-by-size-img img {
+    width: 100%;
+    transition: all 0.4s ease-in-out;
+    object-fit: cover;
+}
+.cat-shop-by-size-img:hover img{
+    transform: scale(1.1);
+}
 .cat-available-size a{
     text-align: center;
     text-decoration: none;
     font-size: 18px;
-    color: #000;
+    color: #000;  
+}
 
+/* shop by price */
+
+.cat-shop-by-price-container {
+    background-color: #F3F3F3;
+    margin: 15px;
+    padding-top: 10px;
+}
+.cat-price-ranges {
+    display: flex;
+    justify-content: center;
+    margin-top: 3em;
+    margin-bottom: 2em;
+
+}
+
+.cat-price-ranges a{
+    border: 1px solid rgb(97, 95, 95);
+    padding : 18px;
+    margin-right: 10px;
+    width: 43%;
+    flex-wrap: nowrap;
+    text-decoration: none;
+    font-size: 18px;
+    text-align: center;
+    color: #000;
+    transition: all 0.3s ease-out;
+}
+
+.cat-price-ranges a:hover{
+    background-color: rgb(65, 63, 63);
+    color: #fff;
+}
+
+/* Shop by processor */
+
+.cat-shop-by-processor {
+    margin-top: 3em;
+}
+.cat-available-processors {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 25px;
+}
+
+.cat-shop-by-processor-img {
+    max-width: 250px;
+    height: 200px;
+    margin-right: 10px;
+    margin-bottom: 12px;
+    transition: all 0.5s ease-out;
     
+}
+
+.cat-shop-by-processor-img:hover{
+    box-shadow: 3px 1px 5px rgba(0, 0, 0, 0.08);
+    transform: scale(1.1);
+}
+.cat-shop-by-processor-img img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.cat-available-processors a {
+    text-decoration: none;
+    text-align: center;
+    color: #000;
+    font-size: 18px;
+}
+
+/* Styling middle page banner */
+
+.middle-page-banner-container {
+    margin-top: 4em;
+    padding : 20px;
+    display: flex;
+}
+
+.middle-page-banner {
+    background-image: url('https://cdn.shopclues.com/images/banners/Work/wired_laptop_clp/ShopClues_trending_01.jpg');
+    width: 60%;
+    height: 350px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+    
+}
+
+.banner-img-description {
+    background-color: #94D48A;
+    padding: 3em;
+    margin: 10px 0px 10px 0px;
+    flex-grow: 2;
+}
+
+.banner-description-title {
+    font-size: 25px;
+    color: #fff;
+    text-transform: uppercase;
+    font-weight: bold;
+    margin-bottom: 1.2em;
+}
+
+.banner-shop-now-btn {
+    background: transparent;
+    border: 1px solid #fff;
+    border-radius: 15px;
+    padding: 5px 25px 5px 25px;
+    color: #fff;
+    cursor: pointer;
+}
+
+.banner-shop-now-btn:hover {
+    background-color: #fff;
+    color: #94D48A;
 }
