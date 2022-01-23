@@ -1,3 +1,5 @@
+<?php include 'utility/Filters.php'?>
+<?php include 'utility/products.php' ?>
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -23,176 +25,42 @@
                     <div class = "cat-nav-header-filter-title">
                         <span>Filter Results</span>
                     </div>
-                    <div class = "cat-nav-filter-option">
-                        <legend class = "cat-nav-filter-title">
-                            <span>Brand</span>
-                            <a class = "toggle-arrow" href="javascript:void(0)"></a>
-                        </legend>
-                        <div class = "filter-content">
-                            <ul>
-                                <li>
-                                    <input type="checkbox" name="80000-or-more" id="80000-or-more">
-                                    <label for="80000-or-more">₹ 80, 000 or more</label>
-                                </li>
-                                <li>
-                                    <input type="checkbox" name="70000-800000" id="">
-                                    <label for="70000-800000">₹ 70,000 - ₹ 80,0000</label>
-                                </li>
-                                <li>
-                                    <input type="checkbox" name="60000-70,0000" id="60000-700000">
-                                    <label for="60000-700000">₹ 60,000 - ₹70,0000 </label>
-                                </li>
-                                <li>
-                                    <input type="checkbox" name="50000-60000" id="50000-60000">
-                                    <label for="50000-60000">₹ 50,000 - ₹60,000</label>
-                                </li>
-                            </ul> 
-                        </div>                     
-                    </div>
-                    <div class = "cat-nav-filter-option">
-                        <legend class = "cat-nav-filter-title">
-                            <span>Brand</span>
-                            <a class = "toggle-arrow" href="javascript:void(0)"></a>
-                        </legend>
-                        <ul>
-                            <li>
-                                <input type="checkbox" name="80000-or-more" id="80000-or-more">
-                                <label for="80000-or-more">₹ 80, 000 or more</label>
-                            </li>
-                            <li>
-                                <input type="checkbox" name="70000-800000" id="">
-                                <label for="70000-800000">₹ 70,000 - ₹ 80,0000</label>
-                            </li>
-                            <li>
-                                <input type="checkbox" name="60000-70,0000" id="60000-700000">
-                                <label for="60000-700000">₹ 60,000 - ₹70,0000 </label>
-                            </li>
-                            <li>
-                                <input type="checkbox" name="50000-60000" id="50000-60000">
-                                <label for="50000-60000">₹ 50,000 - ₹60,000</label>
-                            </li>
-                        </ul>                      
-                    </div>
-                    <div class = "cat-nav-filter-option">
-                        <legend class = "cat-nav-filter-title">
-                            <span>Brand</span>
-                            <a class = "toggle-arrow" href="javascript:void(0)"></a>
-                        </legend>
-                        <ul>
-                            <li>
-                                <input type="checkbox" name="80000-or-more" id="80000-or-more">
-                                <label for="80000-or-more">₹ 80, 000 or more</label>
-                            </li>
-                            <li>
-                                <input type="checkbox" name="70000-800000" id="">
-                                <label for="70000-800000">₹ 70,000 - ₹ 80,0000</label>
-                            </li>
-                            <li>
-                                <input type="checkbox" name="60000-70,0000" id="60000-700000">
-                                <label for="60000-700000">₹ 60,000 - ₹70,0000 </label>
-                            </li>
-                            <li>
-                                <input type="checkbox" name="50000-60000" id="50000-60000">
-                                <label for="50000-60000">₹ 50,000 - ₹60,000</label>
-                            </li>
-                        </ul>                      
-                    </div>
-                    <div class = "cat-nav-filter-option">
-                        <legend class = "cat-nav-filter-title">
-                            <span>Brand</span>
-                            <a class = "toggle-arrow" href="javascript:void(0)"></a>
-                        </legend>
-                        <ul>
-                            <li>
-                                <input type="checkbox" name="80000-or-more" id="80000-or-more">
-                                <label for="80000-or-more">₹ 80, 000 or more</label>
-                            </li>
-                            <li>
-                                <input type="checkbox" name="70000-800000" id="">
-                                <label for="70000-800000">₹ 70,000 - ₹ 80,0000</label>
-                            </li>
-                            <li>
-                                <input type="checkbox" name="60000-70,0000" id="60000-700000">
-                                <label for="60000-700000">₹ 60,000 - ₹70,0000 </label>
-                            </li>
-                            <li>
-                                <input type="checkbox" name="50000-60000" id="50000-60000">
-                                <label for="50000-60000">₹ 50,000 - ₹60,000</label>
-                            </li>
-                        </ul>                      
-                    </div>
-                    <div class = "cat-nav-filter-option">
-                        <legend class = "cat-nav-filter-title">
-                            <span>Brand</span>
-                            <a class = "toggle-arrow" href="javascript:void(0)"></a>
-                        </legend>
-                        <ul>
-                            <li>
-                                <input type="checkbox" name="80000-or-more" id="80000-or-more">
-                                <label for="80000-or-more">₹ 80, 000 or more</label>
-                            </li>
-                            <li>
-                                <input type="checkbox" name="70000-800000" id="">
-                                <label for="70000-800000">₹ 70,000 - ₹ 80,0000</label>
-                            </li>
-                            <li>
-                                <input type="checkbox" name="60000-70,0000" id="60000-700000">
-                                <label for="60000-700000">₹ 60,000 - ₹70,0000 </label>
-                            </li>
-                            <li>
-                                <input type="checkbox" name="50000-60000" id="50000-60000">
-                                <label for="50000-60000">₹ 50,000 - ₹60,000</label>
-                            </li>
-                        </ul>                      
-                    </div>
-                    <div class = "cat-nav-filter-option">
-                        <legend class = "cat-nav-filter-title">
-                            <span>Brand</span>
-                            <a class = "toggle-arrow" href="javascript:void(0)"></a>
-                        </legend>
-                        <ul>
-                            <li>
-                                <input type="checkbox" name="80000-or-more" id="80000-or-more">
-                                <label for="80000-or-more">₹ 80, 000 or more</label>
-                            </li>
-                            <li>
-                                <input type="checkbox" name="70000-800000" id="">
-                                <label for="70000-800000">₹ 70,000 - ₹ 80,0000</label>
-                            </li>
-                            <li>
-                                <input type="checkbox" name="60000-70,0000" id="60000-700000">
-                                <label for="60000-700000">₹ 60,000 - ₹70,0000 </label>
-                            </li>
-                            <li>
-                                <input type="checkbox" name="50000-60000" id="50000-60000">
-                                <label for="50000-60000">₹ 50,000 - ₹60,000</label>
-                            </li>
-                        </ul>                      
-                    </div>
-                    <div class = "cat-nav-filter-option">
-                        <legend class = "cat-nav-filter-title">
-                            <span>Brand</span>
-                            <a class = "toggle-arrow" href="javascript:void(0)"></a>
-                        </legend>
-                        <ul>
-                            <li>
-                                <input type="checkbox" name="80000-or-more" id="80000-or-more">
-                                <label for="80000-or-more">₹ 80, 000 or more</label>
-                            </li>
-                            <li>
-                                <input type="checkbox" name="70000-800000" id="">
-                                <label for="70000-800000">₹ 70,000 - ₹ 80,0000</label>
-                            </li>
-                            <li>
-                                <input type="checkbox" name="60000-70,0000" id="60000-700000">
-                                <label for="60000-700000">₹ 60,000 - ₹70,0000 </label>
-                            </li>
-                            <li>
-                                <input type="checkbox" name="50000-60000" id="50000-60000">
-                                <label for="50000-60000">₹ 50,000 - ₹60,000</label>
-                            </li>
-                        </ul>                      
-                    </div>                    
+                    <?php
+                            $filterContent = array();
+                            $filterContent = [
+                                    [
+                                        ["title" => "Price", "name" => "80000-or-more", "labelContent" => "₹ 80, 000 or more", "id" => "80000-or-more"],
+                                        ["name" => "70000-800000", "labelContent" => "₹ 70000 - ₹ 800000", "id" => "70000-800000"],
+                                        ["name" => "60000-700000", "labelContent" => "₹ 60,000 - ₹70,0000", "id" => "60000-70000"],
+                                        ["name" => "50000-60000", "labelContent" => "₹ 50,000 - ₹60,0000", "id" => "50000-60000"]
+                                    ],
+                                     [
+                                         ["title" => "Brand","name" => "DELL", "labelContent" => "DELL", "id"=>"DELL"],
+                                         ["name" => "HP", "labelContent" => "HP", "id" => "HP"],  
+                                         ["name" => "LENOVO", "labelContent" => "LENOVO", "id" => "LENOVO"],  
+                                         ["name" => "ACER", "labelContent" => "ACER", "id" => "ACER"],  
+                                    ],
+                                    [
+                                        ["title" => "Processor", "name" => "AMD", "labelContent" => "AMD", "id" => "AMD"],
+                                        ["name" => "core-i3", "labelContent" => "Core i3", "id" => "core-i3"],
+                                        ["name" => "core-i5", "labelContent" => "Core i5", "id" => "core-i5"],
+                                        ["name" => "core-i7", "labelContent" => "Core i7", "id" => "core-i7"],
+                                    ],
+                                    [
+                                        ["title" => "Processor Generation","name" => "10th-gen", "labelContent" => "10th Generation", "id" => "10th-gen"],
+                                        ["name" => "11th-gen", "labelContent" => "11th Generation", "id" => "11th-gen"],
+                                        ["name" => "7th-gen", "labelContent" => "7th Generation", "id" => "7th-gen"],
+                                    ],
+                                    [
+                                        ["title" => "System Memory", "name" => "16-gb", "labelContent" => "16 GB", "id" => "16-gb"],
+                                        ["name" => "32-gb", "labelContent" => "32 GB", "id" => "32-gb"],
+                                        ["name" => "4-gb", "labelContent" => "4 GB", "id" => "4-gb"],
+                                        ["name" => "16-gb", "labelContent" => "16 GB", "id" => "4-gb"],
+                                    ]
+                                ];
+                            makeFilters($filterContent);
+                        ?>
+                            
                 </div>
                 <div class = "cat-side-content">
                     <div class="cat-shop-by-brand-container">
@@ -256,55 +124,69 @@
                                 </a>
                             </div>
                         </div>
-                    </div>
-                    <div class="cat-shop-by-price-container">
-                        <div class = "cat-side-content-title">
-                           <span>Shop By Price</span>
-                        </div>
-                        <div class="cat-shop-by-price">
-                           <div class = "cat-price-ranges">
-                               <a href="#"><div class = "cat-price">₹ 80, 000 or more</div></a>
-                               <a href="#"><div class = "cat-price">₹ 70,000 - ₹ 80,0000</div></a>
-                               <a href="#"><div class = "cat-price">₹ 60,000 - ₹70,0000</div></a>
-                               <a href="#"><div class = "cat-price">₹ 50,000 - ₹60,000</div></a>
-                           </div>
-                        </div>
-                    </div>
-                    <div class="cat-shop-by-processor-container">
-                        <div class = "cat-side-content-title">
-                           <span>Shop By Processor</span>
-                        </div>
-                        <div class="cat-shop-by-processor">
-                           <div class = "cat-available-processors">
-                               <a href="#"><div class = "cat-shop-by-processor-img">
-                                   <img src="https://cdn.shopclues.com/images/banners/Work/wired_laptop_clp/ShopByProcessor_intelcoreI3.jpg" alt="Intel core i3">
-                               </div>
-                                   <span>Intel core i3</span>
-                               </a>
-                               <a href="#"><div class = "cat-shop-by-processor-img">
-                                   <img src="https://cdn.shopclues.com/images/banners/Work/wired_laptop_clp/ShopByProcessor_intelcore_i5.jpg" alt="Intel core i5">
-                               </div>
-                                   <span>Intel core i5</span>
-                               </a>
-                               <a href="#"><div class = "cat-shop-by-processor-img">
-                                   <img src="https://cdn.shopclues.com/images/banners/Work/wired_laptop_clp/ShopByProcessor_intelCorei7.jpg" alt="Intel core i7">
-                               </div>
-                                   <span>Intel core i7</span>
-                               </a>
-                               <a href="#"><div class = "cat-shop-by-processor-img">
-                                   <img src="https://cdn.shopclues.com/images/banners/Work/wired_laptop_clp/ShopByProcessor_ADM.jpg" alt="AMD">
-                               </div>
-                                   <span>AMD</span>
-                               </a>
-                           </div>
-                        </div>
-                    </div>
-            
+                    </div>            
                 </div>
-                
             </div>
         </div>
-        
+        <div class="cat-shop-by-price-container">
+            <div class = "cat-side-content-title">
+                <span>Shop By Price</span>
+            </div>
+            <div class="cat-shop-by-price">
+                <div class = "cat-price-ranges">
+                    <a href="#"><div class = "cat-price">₹ 80, 000 or more</div></a>
+                    <a href="#"><div class = "cat-price">₹ 70,000 - ₹ 80,0000</div></a>
+                    <a href="#"><div class = "cat-price">₹ 60,000 - ₹70,0000</div></a>
+                    <a href="#"><div class = "cat-price">₹ 50,000 - ₹60,000</div></a>
+                </div>
+            </div>
+        </div>
+        <div class="cat-shop-by-processor-container">
+            <div class = "cat-side-content-title">
+                <span>Shop By Processor</span>
+            </div>
+            <div class="cat-shop-by-processor">
+                <div class = "cat-available-processors">
+                    <a href="#"><div class = "cat-shop-by-processor-img">
+                        <img src="https://cdn.shopclues.com/images/banners/Work/wired_laptop_clp/ShopByProcessor_intelcoreI3.jpg" alt="Intel core i3">
+                    </div>
+                        <span>Intel core i3</span>
+                    </a>
+                    <a href="#"><div class = "cat-shop-by-processor-img">
+                        <img src="https://cdn.shopclues.com/images/banners/Work/wired_laptop_clp/ShopByProcessor_intelcore_i5.jpg" alt="Intel core i5">
+                    </div>
+                        <span>Intel core i5</span>
+                    </a>
+                    <a href="#"><div class = "cat-shop-by-processor-img">
+                        <img src="https://cdn.shopclues.com/images/banners/Work/wired_laptop_clp/ShopByProcessor_intelCorei7.jpg" alt="Intel core i7">
+                    </div>
+                        <span>Intel core i7</span>
+                    </a>
+                    <a href="#"><div class = "cat-shop-by-processor-img">
+                        <img src="https://cdn.shopclues.com/images/banners/Work/wired_laptop_clp/ShopByProcessor_ADM.jpg" alt="AMD">
+                    </div>
+                        <span>AMD</span>
+                    </a>
+                </div>
+            </div>
+        </div>
+        <div style="padding : 20px;">
+        <div class="sample-grid-display-products" style="background-color: #F3F3F3;">
+           
+                <?php
+                    $productInfo = array();
+                    $productInfo = [
+                        ["img"=> "https://i.dell.com/sites/csimages/Banner_Imagery/all/in-dhs-rday-2022-vostro-15-3510-laptop.png", "alt" => "", "p1" => "New Vostro 3510 Laptop", "p2" => "₹ 60,690","p3" => "11th Generation Intel® Core™ i5-1135G7 Processor", "p4" => "Windows 11 Home", "p5" => "Intel® UHD Graphics with shared graphics memory", "p6" => "8GB, 8GBx1, DDR4, 2666MHz", "p7" => "256GB M.2 PCIe NVMe Solid State Drive (Boot) + 1TB 5400 rpm 2.5\" SATA Hard Drive (Storage)", "p8" => "39.6-cm. display", "p9" => "Starting at 1.69 kg"],
+                        ["img"=> "https://i.dell.com/sites/csimages/Banner_Imagery/en/Indhs-republic-event-vostro-14-3401-laptop-D552126WIN9DE.png", "alt" => "", "p1" => "New Vostro 3510 Laptop", "p2" => "₹ 60,690","p3" => "11th Generation Intel® Core™ i5-1135G7 Processor", "p4" => "Windows 11 Home", "p5" => "Intel® UHD Graphics with shared graphics memory", "p6" => "8GB, 8GBx1, DDR4, 2666MHz", "p7" => "256GB M.2 PCIe NVMe Solid State Drive (Boot) + 1TB 5400 rpm 2.5\" SATA Hard Drive (Storage)", "p8" => "39.6-cm. display", "p9" => "Starting at 1.69 kg"],
+                        ["img"=> "https://i.dell.com/sites/csimages/Banner_Imagery/all/in-dhs-rday-2022-inspiron-15-5510-laptop.png", "alt" => "", "p1" => "New Vostro 3510 Laptop", "p2" => "₹ 60,690","p3" => "11th Generation Intel® Core™ i5-1135G7 Processor", "p4" => "Windows 11 Home", "p5" => "Intel® UHD Graphics with shared graphics memory", "p6" => "8GB, 8GBx1, DDR4, 2666MHz", "p7" => "256GB M.2 PCIe NVMe Solid State Drive (Boot) + 1TB 5400 rpm 2.5\" SATA Hard Drive (Storage)", "p8" => "39.6-cm. display", "p9" => "Starting at 1.69 kg"],
+                        ["img"=> "https://i.dell.com/sites/csimages/Banner_Imagery/all/in-dhs-rday-2022-inspiron-14-5410-laptop.png", "alt" => "", "p1" => "New Vostro 3510 Laptop", "p2" => "₹ 60,690","p3" => "11th Generation Intel® Core™ i5-1135G7 Processor", "p4" => "Windows 11 Home", "p5" => "Intel® UHD Graphics with shared graphics memory", "p6" => "8GB, 8GBx1, DDR4, 2666MHz", "p7" => "256GB M.2 PCIe NVMe Solid State Drive (Boot) + 1TB 5400 rpm 2.5\" SATA Hard Drive (Storage)", "p8" => "39.6-cm. display", "p9" => "Starting at 1.69 kg"],
+                    ];
+                    
+                    makeProducts($productInfo);
+                ?>                
+            
+        </div>
+        </div>            
         <div class="middle-page-banner-container">
             <div class="middle-page-banner"></div>
             <div class="banner-img-description">
@@ -314,6 +196,26 @@
                 <button class = "banner-shop-now-btn">Shop Now</button>
             </div>
         </div>
+        <div class="middle-page-banner-container">
+            <div class="banner-img-description-2">
+                <p class = "banner-description-title">High Performance Laptop</p>
+                <p style="margin-bottom: 4em; font-size: 18px;">Powered by Intel Core i5 & i7, these Laptops are <br>
+                made to do more in every moment.</p>
+                <button class = "banner-shop-now-btn-2">Shop Now</button>
+            </div>
+            <div class="middle-page-banner-2"></div>
+        </div>
+
+        <div class="middle-page-banner-container">
+            <div class="middle-page-banner-3"></div>
+            <div class="banner-img-description-3">
+                <p class = "banner-description-title">High Performance Laptop</p>
+                <p style="margin-bottom: 4em; font-size: 18px;">Powered by Intel Core i5 & i7, these Laptops are <br>
+                made to do more in every moment.</p>
+                <button class = "banner-shop-now-btn-3">Shop Now</button>
+            </div>
+        </div>
+
     </main>
 </body>
 </html>
