@@ -13,7 +13,10 @@
 </head>
 <body>
     <!-- Hero Section -->
-    <div class = "home-page-hero-section"></div>
+    <div class = "home-page-hero-section">
+
+        jkhjghghgf
+    </div>
     <!-- Navigation -->
     <div class="nav"></div>
 
