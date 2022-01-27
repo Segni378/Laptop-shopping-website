@@ -136,6 +136,14 @@ body{
 
 /* Shop by brand image styles */
 
+.cat-available-brands a {
+    transform: translateY(90px);
+    opacity: 0;
+}
+.cat-available-size a{
+    transform: translateY(90px);
+    opacity: 0;
+}
 .cat-brand-img {
     max-width: 220px;
     height: 300px;
@@ -147,11 +155,36 @@ body{
 .cat-brand-img img {
     width: 100%;
     object-fit: cover;
-      transition: all 0.4s ease-in-out;
+    transition: all 0.4s ease-in-out;
 }
 .cat-brand-img:hover img {
     transform: scale(1.03);
 }
+
+#brand-4, #size-4 {
+    transition: all 0.4s ease-out;
+}
+#brand-3, #size-3 {
+    transition: all 0.8s ease-out;
+}
+#brand-2, #size-2 {
+    transition: all 1.2s ease-out;
+}
+#brand-1, #size-1 {
+    transition: all 1.6s ease-out;
+}
+#brand-4.active,
+#brand-3.active,
+#brand-2.active,
+#brand-1.active,
+#size-4.active,
+#size-3.active,
+#size-2.active,
+#size-1.active
+ {
+    opacity: 1;
+    transform: translateY(0px);
+} 
 
 /* shop by size image styles */
 
@@ -441,6 +474,26 @@ body{
     font-size: 18px;
 }
 
+#content-1 {
+    transition: all 0.3s ease-out;
+}
+#content-2{
+    transition: all 0.6s ease-out;
+}
+#content-3 {
+    transition: all 0.9s ease-out;
+}
+#content-4{
+    transition: all 1.2s ease-out;
+}
+.content.hide--section {
+    opacity: 0;
+    transform: translateY(90px);
+}
+/* .reveal-slowly > .content.{
+    
+} */
+
 @media screen and (max-width: 55rem) {
     .cat-nav-filter-options {
         display: none;
@@ -497,3 +550,4 @@ body{
         margin-bottom: 1em;
     }
 }
+
