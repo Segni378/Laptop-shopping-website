@@ -1,0 +1,152 @@
+/* h1{
+    text-align: center;
+    color: black;
+}
+.home-page-hero-section{
+   font-size: 25px;
+   font-weight: bold;
+}
+.heroSlides{
+   display: inline;
+   text-align: center;
+   justify-content: center;
+   transition: 5s;
+   animation: fade 20s infinite;
+}
+img{
+    border-radius: 2em;
+    margin: 0;
+   height: 20em;
+   width: 100%;
+}
+
+@keyframes fade{
+   0%{
+       opacity: 0.6;
+   }
+   20%{
+       opacity: 0.8;
+   }
+   50%{
+       opacity: 0.9;
+   }
+   75%{
+       opacity: 1;
+   }
+   80%{
+       opacity: 0.9;
+   }
+   90%{
+       opacity: 0.8;
+   }
+   100%{
+       opacity: 0.4;
+   }
+}
+.heroSlides{
+   font-size: 20px;
+   font-weight: bold;
+}
+.hero-text {
+    z-index: 100;
+    top: 40%;
+    position: absolute;
+    right: 120%;
+    width: 100%;
+    height: 70vh;
+    animation: animate 40s linear forwards;
+    text-align: center;
+   color: rgb(12, 11, 11);
+}
+@keyframes animate{
+    0%{
+       right: -30%;
+    }
+    50%{
+        right: 120%;
+    }
+    100%{
+        right: -30%;
+    }
+
+}
+ */
+
+
+
+
+
+/* 
+h1{
+    text-align: center;
+    color: black;
+}
+.home-page-hero-section{
+   font-size: 25px;
+   font-weight: bold;
+}
+.heroSlides{
+   display: inline;
+   text-align: center;
+   justify-content: center;
+   transition: 5s;
+   animation: fade 20s infinite;
+}
+img{
+    border-radius: 2em;
+    margin: 0;
+   height: 20em;
+   width: 100%;
+}
+
+@keyframes fade{
+   0%{
+       opacity: 0.6;
+   }
+   20%{
+       opacity: 0.8;
+   }
+   50%{
+       opacity: 0.9;
+   }
+   75%{
+       opacity: 1;
+   }
+   80%{
+       opacity: 0.9;
+   }
+   90%{
+       opacity: 0.8;
+   }
+   100%{
+       opacity: 0.4;
+   }
+}
+.heroSlides{
+   font-size: 20px;
+   font-weight: bold;
+}
+.hero-text {
+    top: 40%;
+    position: absolute;
+    right: 120%;
+    width: 100%;
+    height: 70vh;
+    animation: animate 40s linear forwards;
+    text-align: center;
+   color: rgb(12, 11, 11);
+}
+@keyframes animate{
+    0%{
+       right: -30%;
+    }
+    50%{
+        right: 120%;
+    }
+    100%{
+        right: -30%;
+    }
+
+}
+
+*/

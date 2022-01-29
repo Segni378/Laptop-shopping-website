@@ -8,18 +8,50 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Shop easily with us!😊</title>
     <link rel="stylesheet" href="asset/css/styles.css">
+    <!-- <link rel="stylesheet" href="asset/css/header.css"> -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css" rel="stylesheet">
     <script src="asset/js/script.js" defer></script>
+    <script src="asset/js/all.js" defer></script>
+    <script src="asset/js/sticky-navbar.js" defer></script>
 </head>
 <body>
     <!-- Hero Section -->
-    <div class = "home-page-hero-section">
 
-        jkhjghghgf
+
+
+    <div class="home-page-hero-section">
+        <h1>Hero Section</h1>
+    
+         <div class="heroSlides">
+             <img src="./image/image4.jpg">
+             <div class="hero-text">
+                 <h2>Heeeeeeeeeeee</h2>
+             </div>
+         </div>
+    
+         <div class="heroSlides">
+         <img src="./image/image6.webp">
+         <div class="hero-text">
+                 <h2>Hayilunna taaffasa</h2>
+                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                    Perferendis odit ipsum amet est. Esse, maxime aperiam 
+                    saepe ipsa repellendus deserunt ad voluptatum modi
+                    corporis cumque in cupiditate facilis assumenda
+                    blanditiis?</p>
+             </div>
+         </div>
+    
+         <div class="heroSlides">
+             <img src="./image/image1.jpg">
+             <div class="hero-text">
+                 <h2>Hayeeesso</h2>
+             </div>
+         </div>
     </div>
-    <!-- Navigation -->
-    <div class="nav"></div>
 
+    <!-- Navigation -->
+  <?php include ('utility/header.php')?>
     <!-- Main body -->
 
     <main>
