@@ -3,7 +3,8 @@
     function makeProducts($products){
     
         for($i = 0; $i < sizeof($products); $i++) {?>
-         <div class="inner-sample-grid-display-products">
+        <!-- <div> -->
+         <div class="inner-sample-grid-display-products content" id="<?php echo $products[$i]["id"] ?>">
              <div class="compare">
                  <input type="checkbox" name="compare" id="compare" style="margin-left: 10px">
                  <label for="compare">Compare</label>
@@ -48,7 +49,8 @@
             <div class="add-to-cart-btn">
                 <button >Add To Cart</button>
             </div>
-         </div>
+         </div>     
+        <!-- </div> -->
 <?php
 }
 }

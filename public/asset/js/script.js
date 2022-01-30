@@ -17,7 +17,6 @@ for (let i = 0; i < toggleFilter.length; i++) {
 
 const showDetails = document.querySelectorAll(".show-details");
 
-console.log(showDetails);
 for (let i = 0; i < showDetails.length; i++) {
   showDetails[i].addEventListener("click", function() {
     var parentElement = showDetails[i].parentElement;
@@ -90,37 +89,53 @@ function() {
 
 
 
+/* Revealing the brands section slowly on window load */
 
-// const hellow = document.querySelector(".hellow");
-// const close = document.querySelector(".close");
-// const registerMe = document.querySelector(".registerMe");
-// const overlay = document.querySelector(".overlay");
-// console.log("RLJLJLK", registerMe);
+const availableBrands = document.querySelector(".cat-available-brands").querySelectorAll("a");
+const availableSizes = document
+  .querySelector(".cat-available-size")
+  .querySelectorAll("a");
+console.log(availableSizes);
+window.addEventListener("load", () => {
+    for(let i = 0; i < availableBrands.length; i++) {
+      availableBrands[i].classList.add("active");
+    }
+    for(let i = 0; i < availableSizes.length; i++) {
+      availableSizes[i].classList.add("active");
+    }
+})
 
-// close.addEventListener("click", function() {
-//   hellow.classList.remove("active");
-//   close.classList.toggle("active");
-//   overlay.classList.toggle("active");
+/* Revealing sections on scroll */
 
-// })
+const sections = document.querySelectorAll(".reveal-slowly");
 
-// registerMe.addEventListener("click", function() {
-//   hellow.classList.add("active");
-//   close.classList.add("active");
-//   overlay.classList.add("active");
-// })
+const reveal = (entries, observer) => {
+  const [entry] = entries;
+  if(entry.isIntersecting){
 
+    const childrenOfTarget = entry.target.querySelectorAll(".content");
+   
+    childrenOfTarget.forEach(child => {
+      child.classList.remove("hide--section");
+    })
+  
+    observer.unobserve(entry.target);
+  }
+  
+}
+const observeOptions = {
+  root: null,
+  threshold: 0.5 
+}
 
+const sectionObserver = new IntersectionObserver(reveal, observeOptions);
 
+sections.forEach(section => {
 
-
-
-
-
-
-
-
-
-
-
-
+  sectionObserver.observe(section);
+  const allChild = section.querySelectorAll(".content");
+  allChild.forEach(child  => {
+    child.classList.add("hide--section");
+  })
+  
+});

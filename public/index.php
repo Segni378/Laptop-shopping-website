@@ -161,30 +161,30 @@
                         ?>
                             
                 </div>
-                <div class = "cat-side-content">
+                <div class = "cat-side-content reveal-slowly">
                     <div class="cat-shop-by-brand-container">
                         <div class = "cat-side-content-title">
                             <span>Top Brands</span>
                         </div>
                         <div class = "cat-shop-by-brand">
                             <div class = "cat-available-brands">
-                                <a href="#">
-                                    <div class = "cat-brand-img">
+                                <a href="#" id="brand-4">
+                                    <div class = "cat-brand-img" >
                                       <img src="https://cdn.shopclues.com/images/banners/Work/wired_laptop_clp/Top_Brands_HP.jpg" alt="HP Laptop">
                                     </div>
                                 </a>
-                                <a href="#">
-                                    <div class = "cat-brand-img">
+                                <a href="#" id="brand-3" >
+                                    <div class = "cat-brand-img" >
                                       <img src="https://cdn.shopclues.com/images/banners/Work/wired_laptop_clp/Top_Brands_Dell.jpg" alt="Dell Laptop">
                                     </div>
                                 </a>
-                                <a href="#">
-                                    <div class = "cat-brand-img">
+                                <a href="#" id="brand-2" >
+                                    <div class = "cat-brand-img" id="brand-2">
                                       <img src="https://cdn.shopclues.com/images/banners/Work/wired_laptop_clp/Top_Brands_Lenovo.jpg" alt="Lenovo Laptop">
                                     </div>
                                 </a>
-                                <a href="#">
-                                    <div class = "cat-brand-img">
+                                <a href="#" id="brand-1">
+                                    <div class = "cat-brand-img" id="brand-1">
                                       <img src="https://cdn.shopclues.com/images/banners/Work/wired_laptop_clp/Top_Brands_Acer.jpg" alt="Acer Laptop">
                                   </div>
                                 </a>
@@ -197,25 +197,25 @@
                         </div>
                         <div class = "cat-shop-by-size">
                             <div class = "cat-available-size">
-                                <a href="#">
+                                <a href="#" id="size-4">
                                     <div class = "cat-shop-by-size-img">
                                       <img src="https://cdn.shopclues.com/images/banners/1Web-Screen_Sizes_Less_13.3_Inch.jpg" alt="Less than 13.3 inch">
                                   </div>
                                   <span>Less than 13.3 inch</span>
                                </a>
-                                <a href="#">
+                                <a href="#" id="size-3">
                                     <div class = "cat-shop-by-size-img">
                                       <img src="https://cdn.shopclues.com/images/banners/2Web-Screen_Sizes_13.3-Inch.jpg" alt="13.3 inch">
                                     </div>
                                   <span>13.3 inch </span>
                                 </a>
-                                <a href="#">
+                                <a href="#" id="size-2">
                                     <div class = "cat-shop-by-size-img">
                                       <img src="https://cdn.shopclues.com/images/banners/2Web-Screen_Sizes_13.3-Inch.jpg" alt="14 inch">
                                   </div>
                                   <span>14 inch </span>
                                 </a>
-                                <a href="#">
+                                <a href="#" id="size-1">
                                   <div class = "cat-shop-by-size-img">
                                       <img src="https://cdn.shopclues.com/images/banners/2Web-Screen_Sizes_13.3-Inch.jpg" alt="15.6 inch">
                                   </div>
@@ -227,41 +227,41 @@
                 </div>
             </div>
         </div>
-        <div class="cat-shop-by-price-container">
+        <div class="cat-shop-by-price-container reveal-slowly">
             <div class = "cat-side-content-title">
                 <span>Shop By Price</span>
             </div>
-            <div class="cat-shop-by-price">
+            <div class="cat-shop-by-price" >
                 <div class = "cat-price-ranges">
-                    <a href="#"><div class = "cat-price">₹ 80, 000 or more</div></a>
-                    <a href="#"><div class = "cat-price">₹ 70,000 - ₹ 80,0000</div></a>
-                    <a href="#"><div class = "cat-price">₹ 60,000 - ₹70,0000</div></a>
-                    <a href="#"><div class = "cat-price">₹ 50,000 - ₹60,000</div></a>
+                    <a href="#" class="content" id="content-1"><div class = "cat-price">₹ 80, 000 or more</div></a>
+                    <a href="#" class="content" id="content-2"><div class = "cat-price">₹ 70,000 - ₹ 80,0000</div></a>
+                    <a href="#" class="content" id="content-3"><div class = "cat-price">₹ 60,000 - ₹70,0000</div></a>
+                    <a href="#" class="content" id="content-4"><div class = "cat-price">₹ 50,000 - ₹60,000</div></a>
                 </div>
             </div>
         </div>
-        <div class="cat-shop-by-processor-container">
+        <div class="cat-shop-by-processor-container reveal-slowly">
             <div class = "cat-side-content-title">
                 <span>Shop By Processor</span>
             </div>
             <div class="cat-shop-by-processor">
                 <div class = "cat-available-processors">
-                    <a href="#"><div class = "cat-shop-by-processor-img">
+                    <a href="#" class = "content" id="content-1"><div class = "cat-shop-by-processor-img">
                         <img src="https://cdn.shopclues.com/images/banners/Work/wired_laptop_clp/ShopByProcessor_intelcoreI3.jpg" alt="Intel core i3">
                     </div>
                         <span>Intel core i3</span>
                     </a>
-                    <a href="#"><div class = "cat-shop-by-processor-img">
+                    <a href="#" class = "content" id="content-2"><div class = "cat-shop-by-processor-img">
                         <img src="https://cdn.shopclues.com/images/banners/Work/wired_laptop_clp/ShopByProcessor_intelcore_i5.jpg" alt="Intel core i5">
                     </div>
                         <span>Intel core i5</span>
                     </a>
-                    <a href="#"><div class = "cat-shop-by-processor-img">
+                    <a href="#" class = "content" id="content-3" ><div class = "cat-shop-by-processor-img">
                         <img src="https://cdn.shopclues.com/images/banners/Work/wired_laptop_clp/ShopByProcessor_intelCorei7.jpg" alt="Intel core i7">
                     </div>
                         <span>Intel core i7</span>
                     </a>
-                    <a href="#"><div class = "cat-shop-by-processor-img">
+                    <a href="#" class = "content" id="content-4"><div class = "cat-shop-by-processor-img">
                         <img src="https://cdn.shopclues.com/images/banners/Work/wired_laptop_clp/ShopByProcessor_ADM.jpg" alt="AMD">
                     </div>
                         <span>AMD</span>
@@ -269,52 +269,54 @@
                 </div>
             </div>
         </div>
-        <div style="padding : 20px;">
-        <div class="sample-grid-display-products" style="background-color: #F3F3F3;">
-           
-                <?php
-                    $productInfo = array();
-                    $productInfo = [
-                        ["img"=> "https://i.dell.com/sites/csimages/Banner_Imagery/all/in-dhs-rday-2022-vostro-15-3510-laptop.png", "alt" => "", "p1" => "New Vostro 3510 Laptop", "p2" => "₹ 60,690","p3" => "11th Generation Intel® Core™ i5-1135G7 Processor", "p4" => "Windows 11 Home", "p5" => "Intel® UHD Graphics with shared graphics memory", "p6" => "8GB, 8GBx1, DDR4, 2666MHz", "p7" => "256GB M.2 PCIe NVMe Solid State Drive (Boot) + 1TB 5400 rpm 2.5\" SATA Hard Drive (Storage)", "p8" => "39.6-cm. display", "p9" => "Starting at 1.69 kg"],
-                        ["img"=> "https://i.dell.com/sites/csimages/Banner_Imagery/en/Indhs-republic-event-vostro-14-3401-laptop-D552126WIN9DE.png", "alt" => "", "p1" => "New Vostro 3510 Laptop", "p2" => "₹ 60,690","p3" => "11th Generation Intel® Core™ i5-1135G7 Processor", "p4" => "Windows 11 Home", "p5" => "Intel® UHD Graphics with shared graphics memory", "p6" => "8GB, 8GBx1, DDR4, 2666MHz", "p7" => "256GB M.2 PCIe NVMe Solid State Drive (Boot) + 1TB 5400 rpm 2.5\" SATA Hard Drive (Storage)", "p8" => "39.6-cm. display", "p9" => "Starting at 1.69 kg"],
-                        ["img"=> "https://i.dell.com/sites/csimages/Banner_Imagery/all/in-dhs-rday-2022-inspiron-15-5510-laptop.png", "alt" => "", "p1" => "New Vostro 3510 Laptop", "p2" => "₹ 60,690","p3" => "11th Generation Intel® Core™ i5-1135G7 Processor", "p4" => "Windows 11 Home", "p5" => "Intel® UHD Graphics with shared graphics memory", "p6" => "8GB, 8GBx1, DDR4, 2666MHz", "p7" => "256GB M.2 PCIe NVMe Solid State Drive (Boot) + 1TB 5400 rpm 2.5\" SATA Hard Drive (Storage)", "p8" => "39.6-cm. display", "p9" => "Starting at 1.69 kg"],
-                        ["img"=> "https://i.dell.com/sites/csimages/Banner_Imagery/all/in-dhs-rday-2022-inspiron-14-5410-laptop.png", "alt" => "", "p1" => "New Vostro 3510 Laptop", "p2" => "₹ 60,690","p3" => "11th Generation Intel® Core™ i5-1135G7 Processor", "p4" => "Windows 11 Home", "p5" => "Intel® UHD Graphics with shared graphics memory", "p6" => "8GB, 8GBx1, DDR4, 2666MHz", "p7" => "256GB M.2 PCIe NVMe Solid State Drive (Boot) + 1TB 5400 rpm 2.5\" SATA Hard Drive (Storage)", "p8" => "39.6-cm. display", "p9" => "Starting at 1.69 kg"],
-                    ];
-                    
-                    makeProducts($productInfo);
-                ?>                
+                   
+        <div class="middle-page-banner-container reveal-slowly">
+    
+                <div class="middle-page-banner content" id="content-3" ></div>
+                <div class="banner-img-description content" id="content-3">
+                    <p class = "banner-description-title content" id="content-1">High Performance Laptop</p>
+                    <p class="banner-description content" id="content-1">Powered by Intel Core i5 & i7, these Laptops are <br>
+                    made to do more in every moment.</p>
+                    <button class = "banner-shop-now-btn content" id="content-1">Shop Now</button>
+                </div>
+        </div>
+        <div class="middle-page-banner-container middle-page-banner-container-2 reveal-slowly">
+            <div class="banner-img-description-2 content" id="content-3">
+                <p class = "banner-description-title content" id="content-2">High Performance Laptop</p>
+                <p class="banner-description content" id="content-2">Powered by Intel Core i5 & i7, these Laptops are <br>
+                made to do more in every moment.</p>
+                <button class = "banner-shop-now-btn-2 content" id = "content-2">Shop Now</button>
+            </div>
+            <div class="middle-page-banner-2 content" id="content-3"></div>
+        </div>
+
+        <div class="middle-page-banner-container reveal-slowly">
+            <div class="middle-page-banner-3 content" class="content-3"></div>
+            <div class="banner-img-description-3 content" id="content-3">
+                <p class = "banner-description-title content" id="content-3">High Performance Laptop</p>
+                <p class="banner-description content" id="content-3">Powered by Intel Core i5 & i7, these Laptops are <br>
+                made to do more in every moment.</p>
+                <button class = "banner-shop-now-btn-3 content" id="content-3">Shop Now</button>
+            </div>
+        </div>
+        
+        <div style="padding : 20px;" class="reveal-slowly">
+            <div class="sample-grid-display-products " style="background-color: #F3F3F3;">
             
-        </div>
-        </div>            
-        <div class="middle-page-banner-container">
-            <div class="middle-page-banner"></div>
-            <div class="banner-img-description">
-                <p class = "banner-description-title">High Performance Laptop</p>
-                <p style="margin-bottom: 4em; font-size: 18px;">Powered by Intel Core i5 & i7, these Laptops are <br>
-                made to do more in every moment.</p>
-                <button class = "banner-shop-now-btn">Shop Now</button>
+                    <?php
+                        $productInfo = array();
+                        $productInfo = [
+                            ["img"=> "https://i.dell.com/sites/csimages/Banner_Imagery/all/in-dhs-rday-2022-vostro-15-3510-laptop.png", "alt" => "", "p1" => "New Vostro 3510 Laptop", "p2" => "₹ 60,690","p3" => "11th Generation Intel® Core™ i5-1135G7 Processor", "p4" => "Windows 11 Home", "p5" => "Intel® UHD Graphics with shared graphics memory", "p6" => "8GB, 8GBx1, DDR4, 2666MHz", "p7" => "256GB M.2 PCIe NVMe Solid State Drive (Boot) + 1TB 5400 rpm 2.5\" SATA Hard Drive (Storage)", "p8" => "39.6-cm. display", "p9" => "Starting at 1.69 kg", "id" => "content-1"],
+                            ["img"=> "https://i.dell.com/sites/csimages/Banner_Imagery/en/Indhs-republic-event-vostro-14-3401-laptop-D552126WIN9DE.png", "alt" => "", "p1" => "New Vostro 3510 Laptop", "p2" => "₹ 60,690","p3" => "11th Generation Intel® Core™ i5-1135G7 Processor", "p4" => "Windows 11 Home", "p5" => "Intel® UHD Graphics with shared graphics memory", "p6" => "8GB, 8GBx1, DDR4, 2666MHz", "p7" => "256GB M.2 PCIe NVMe Solid State Drive (Boot) + 1TB 5400 rpm 2.5\" SATA Hard Drive (Storage)", "p8" => "39.6-cm. display", "p9" => "Starting at 1.69 kg", "id" => "content-2"],
+                            ["img"=> "https://i.dell.com/sites/csimages/Banner_Imagery/all/in-dhs-rday-2022-inspiron-15-5510-laptop.png", "alt" => "", "p1" => "New Vostro 3510 Laptop", "p2" => "₹ 60,690","p3" => "11th Generation Intel® Core™ i5-1135G7 Processor", "p4" => "Windows 11 Home", "p5" => "Intel® UHD Graphics with shared graphics memory", "p6" => "8GB, 8GBx1, DDR4, 2666MHz", "p7" => "256GB M.2 PCIe NVMe Solid State Drive (Boot) + 1TB 5400 rpm 2.5\" SATA Hard Drive (Storage)", "p8" => "39.6-cm. display", "p9" => "Starting at 1.69 kg", "id" => "content-3"],
+                            ["img"=> "https://i.dell.com/sites/csimages/Banner_Imagery/all/in-dhs-rday-2022-inspiron-14-5410-laptop.png", "alt" => "", "p1" => "New Vostro 3510 Laptop", "p2" => "₹ 60,690","p3" => "11th Generation Intel® Core™ i5-1135G7 Processor", "p4" => "Windows 11 Home", "p5" => "Intel® UHD Graphics with shared graphics memory", "p6" => "8GB, 8GBx1, DDR4, 2666MHz", "p7" => "256GB M.2 PCIe NVMe Solid State Drive (Boot) + 1TB 5400 rpm 2.5\" SATA Hard Drive (Storage)", "p8" => "39.6-cm. display", "p9" => "Starting at 1.69 kg", "id" => "content-4"],
+                        ];
+                        
+                        makeProducts($productInfo);
+                    ?>                
+                
             </div>
-        </div>
-        <div class="middle-page-banner-container">
-            <div class="banner-img-description-2">
-                <p class = "banner-description-title">High Performance Laptop</p>
-                <p style="margin-bottom: 4em; font-size: 18px;">Powered by Intel Core i5 & i7, these Laptops are <br>
-                made to do more in every moment.</p>
-                <button class = "banner-shop-now-btn-2">Shop Now</button>
-            </div>
-            <div class="middle-page-banner-2"></div>
-        </div>
-
-        <div class="middle-page-banner-container">
-            <div class="middle-page-banner-3"></div>
-            <div class="banner-img-description-3">
-                <p class = "banner-description-title">High Performance Laptop</p>
-                <p style="margin-bottom: 4em; font-size: 18px;">Powered by Intel Core i5 & i7, these Laptops are <br>
-                made to do more in every moment.</p>
-                <button class = "banner-shop-now-btn-3">Shop Now</button>
-            </div>
-        </div>
-
+        </div> 
     </main>
 </body>
 </html>
