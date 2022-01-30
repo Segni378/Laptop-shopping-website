@@ -8,6 +8,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Shop easily with us!😊</title>
     <link rel="stylesheet" href="asset/css/styles.css">
+    <link rel="stylesheet" href="asset/css/header.css">
     <!-- <link rel="stylesheet" href="asset/css/header.css"> -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css" rel="stylesheet">
@@ -16,34 +17,32 @@
     <script src="asset/js/sticky-navbar.js" defer></script>
 </head>
 <body>
-    <!-- Hero Section -->
-
-
-
-    <div class="home-page-hero-section">
-        <h1>Hero Section</h1>
+       
+<div class="home-page-hero-section">
     
-         <div class="heroSlides">
-             <img src="./image/image4.jpg">
+    
+<div class="heroSlides">
+             <!-- <div class = "hero-image"> -->
+                 <img src="./image/image4.jpg">
+             <!-- <div> -->
              <div class="hero-text">
                  <h2>Heeeeeeeeeeee</h2>
              </div>
          </div>
     
          <div class="heroSlides">
-         <img src="./image/image6.webp">
-         <div class="hero-text">
+             <!-- <div class = "hero-image"> -->
+                 <img src="./image/image6.webp">
+             <!-- <div> -->
+             <div class="hero-text">
                  <h2>Hayilunna taaffasa</h2>
-                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
-                    Perferendis odit ipsum amet est. Esse, maxime aperiam 
-                    saepe ipsa repellendus deserunt ad voluptatum modi
-                    corporis cumque in cupiditate facilis assumenda
-                    blanditiis?</p>
              </div>
          </div>
     
          <div class="heroSlides">
-             <img src="./image/image1.jpg">
+             <!-- <div class = "hero-image"> -->
+                 <img src="./image/image1.jpg">
+             <!-- <div> -->
              <div class="hero-text">
                  <h2>Hayeeesso</h2>
              </div>
@@ -51,8 +50,72 @@
     </div>
 
     <!-- Navigation -->
-  <?php include ('utility/header.php')?>
-    <!-- Main body -->
+  <div id="navbar">
+            <div class="home_nav">
+            <img class="logo" src="image/home-page-logo.jpg">                     
+                <button class= "home-page-header-search-button" type="submit">
+                    <input class="search-1" type="text" placeholder="Search.." name="Search">
+                    <i class="fas fa-search"></i>
+                </button>
+                <div class="home-page-header-cart">
+                    <a href="#"><i class="fa fa-shopping-cart fa-2x"></i></a>
+                </div>
+                <div class="home_nav_registeration">
+                <button id="open_here">signup</button>
+                  <!-- <div class="registration_nav">
+                        <div class="registration_form_box">
+                            <div class="registration_form_nav">
+                                <form action="" class="hee">
+                                    <div class="close">+</div>
+                                    <div class="regis">
+                                        <h1>Register</h1>
+                                    </div>
+                                    <div class="part-input">
+                                        <input id="regi_input" type="text" placeholder="Name:" required>
+                                        <input id="regi_input" type="text" placeholder="Sir Name:" required>
+                                        <input id="regi_input" type="email" placeholder="email-address:" required>
+                                        <input id="regi_input" type="password" placeholder="Enter passwaord:" required>
+                                        <input id="regi_input" type="password" placeholder="Confirm password:" required>
+                                        <a href="#" class="sub"><button>Submit</button></a>
+                                        <p>Already have an account? <a href="#">Sign in</a>.</p>
+                                    </div>
+                                </form>
+                            </div>
+                        </div>
+                    </div>
+                 -->
+                 </div>
+            </div>
+        </div>
+ 
+
+         <div class="registration_nav">
+                        <div class="registration_form_box">
+                            <div class="registration_form_nav">
+                                <form action="" class="hee">
+                                    <div class="close">+</div>
+                                    <div class="regis">
+                                        <h1>Register</h1>
+                                    </div>
+                                    <div class="part-input">
+                                        <input id="regi_input" type="text" placeholder="Name:" required>
+                                        <input id="regi_input" type="text" placeholder="Sir Name:" required>
+                                        <input id="regi_input" type="email" placeholder="email-address:" required>
+                                        <input id="regi_input" type="password" placeholder="Enter passwaord:" required>
+                                        <input id="regi_input" type="password" placeholder="Confirm password:" required>
+                                        <a href="#" class="sub"><button>Submit</button></a>
+                                        <p>Already have an account? <a href="#">Sign in</a>.</p>
+                                    </div>
+                                </form>
+                            </div>
+                        </div>
+                    </div>
+                
+ 
+   
+    <!-- Hero Section -->
+
+  <!-- Main body -->
 
     <main>
         <div class = "cat-content-container">

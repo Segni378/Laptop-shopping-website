@@ -37,7 +37,10 @@ window.onscroll = function() {myFunction()};
 var navbar = document.getElementById("navbar");
 var sticky = navbar.offsetTop;
 
+
 function myFunction() {
+
+  console.log("Navbar " + sticky + "window " + window.pageYOffset);
   if (window.pageYOffset >= sticky) {
     navbar.classList.add("sticky")
   
@@ -56,16 +59,28 @@ var slideIndex = 0;
 function carousel(){
     var i;
     var x = document.getElementsByClassName("heroSlides");
+
     for (i = 0; i < x.length; i++) {
       x[i].style.display = "none"; 
+ 
     }
     slideIndex++;
     if (slideIndex > x.length) {slideIndex = 1} 
     x[slideIndex-1].style.display = "block"; 
+
+
     setTimeout(carousel, 6000); 
 }
 
 
+document.getElementById('open_here').addEventListener('click', function(){
+  document.querySelector('.registration_nav').style.display = 'flex';
+});
+
+document.querySelector('.close').addEventListener('click', 
+function() {
+  document.querySelector('.registration_nav').style.display = 'none';
+});
 
 
 
@@ -76,25 +91,24 @@ function carousel(){
 
 
 
+// const hellow = document.querySelector(".hellow");
+// const close = document.querySelector(".close");
+// const registerMe = document.querySelector(".registerMe");
+// const overlay = document.querySelector(".overlay");
+// console.log("RLJLJLK", registerMe);
 
-const hellow = document.querySelector(".hellow");
-const close = document.querySelector(".close");
-const registerMe = document.querySelector(".registerMe");
-const overlay = document.querySelector(".overlay");
-console.log("RLJLJLK", registerMe);
+// close.addEventListener("click", function() {
+//   hellow.classList.remove("active");
+//   close.classList.toggle("active");
+//   overlay.classList.toggle("active");
 
-close.addEventListener("click", function() {
-  hellow.classList.remove("active");
-  close.classList.toggle("active");
-  overlay.classList.toggle("active");
+// })
 
-})
-
-registerMe.addEventListener("click", function() {
-  hellow.classList.add("active");
-  close.classList.add("active");
-  overlay.classList.add("active");
-})
+// registerMe.addEventListener("click", function() {
+//   hellow.classList.add("active");
+//   close.classList.add("active");
+//   overlay.classList.add("active");
+// })
 
 
 
