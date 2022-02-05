@@ -136,10 +136,10 @@
                 </div>
                 <div class="cat-shop-by-price" >
                     <div class = "cat-price-ranges">
-                        <a href="#" class="content" id="content-1"><div class = "cat-price">₹ 80, 000 or more</div></a>
-                        <a href="#" class="content" id="content-2"><div class = "cat-price">₹ 70,000 - ₹ 80,0000</div></a>
-                        <a href="#" class="content" id="content-3"><div class = "cat-price">₹ 60,000 - ₹70,0000</div></a>
-                        <a href="#" class="content" id="content-4"><div class = "cat-price">₹ 50,000 - ₹60,000</div></a>
+                        <a href="#" class="content content-1"><div class = "cat-price">₹ 80, 000 or more</div></a>
+                        <a href="#" class="content content-2"><div class = "cat-price">₹ 70,000 - ₹ 80,0000</div></a>
+                        <a href="#" class="content content-3"><div class = "cat-price">₹ 60,000 - ₹70,0000</div></a>
+                        <a href="#" class="content content-4"><div class = "cat-price">₹ 50,000 - ₹60,000</div></a>
                     </div>
                 </div>
             </div>
@@ -149,22 +149,22 @@
                 </div>
                 <div class="cat-shop-by-processor">
                     <div class = "cat-available-processors">
-                        <a href="#" class = "content" id="content-1"><div class = "cat-shop-by-processor-img">
+                        <a href="#" class = "content content-1"><div class = "cat-shop-by-processor-img">
                             <img src="https://cdn.shopclues.com/images/banners/Work/wired_laptop_clp/ShopByProcessor_intelcoreI3.jpg" alt="Intel core i3">
                         </div>
                             <span>Intel core i3</span>
                         </a>
-                        <a href="#" class = "content" id="content-2"><div class = "cat-shop-by-processor-img">
+                        <a href="#" class = "content content-2"><div class = "cat-shop-by-processor-img">
                             <img src="https://cdn.shopclues.com/images/banners/Work/wired_laptop_clp/ShopByProcessor_intelcore_i5.jpg" alt="Intel core i5">
                         </div>
                             <span>Intel core i5</span>
                         </a>
-                        <a href="#" class = "content" id="content-3" ><div class = "cat-shop-by-processor-img">
+                        <a href="#" class = "content content-3" ><div class = "cat-shop-by-processor-img">
                             <img src="https://cdn.shopclues.com/images/banners/Work/wired_laptop_clp/ShopByProcessor_intelCorei7.jpg" alt="Intel core i7">
                         </div>
                             <span>Intel core i7</span>
                         </a>
-                        <a href="#" class = "content" id="content-4"><div class = "cat-shop-by-processor-img">
+                        <a href="#" class = "content content-4"><div class = "cat-shop-by-processor-img">
                             <img src="https://cdn.shopclues.com/images/banners/Work/wired_laptop_clp/ShopByProcessor_ADM.jpg" alt="AMD">
                         </div>
                             <span>AMD</span>
@@ -174,30 +174,30 @@
             </div>
             <div class="middle-page-banner-container reveal-slowly">
         
-                    <div class="middle-page-banner content" id="content-3" ></div>
-                    <div class="banner-img-description content" id="content-3">
-                        <p class = "banner-description-title content" id="content-1">High Performance Laptop</p>
-                        <p class="banner-description content" id="content-1">Powered by Intel Core i5 & i7, these Laptops are <br>
+                    <div class="middle-page-banner content content-3" ></div>
+                    <div class="banner-img-description content content-3">
+                        <p class = "banner-description-title content content-1">High Performance Laptop</p>
+                        <p class="banner-description content content-1">Powered by Intel Core i5 & i7, these Laptops are <br>
                         made to do more in every moment.</p>
-                        <button class = "banner-shop-now-btn content" id="content-1">Shop Now</button>
+                        <button class = "banner-shop-now-btn content content-1">Shop Now</button>
                     </div>
             </div>
             <div class="middle-page-banner-container middle-page-banner-container-2 reveal-slowly">
-                <div class="banner-img-description-2 content" id="content-3">
-                    <p class = "banner-description-title content" id="content-2">High Performance Laptop</p>
-                    <p class="banner-description content" id="content-2">Powered by Intel Core i5 & i7, these Laptops are <br>
+                <div class="banner-img-description-2 content content-3">
+                    <p class = "banner-description-title content content-2">High Performance Laptop</p>
+                    <p class="banner-description content content-2">Powered by Intel Core i5 & i7, these Laptops are <br>
                     made to do more in every moment.</p>
-                    <button class = "banner-shop-now-btn-2 content" id = "content-2">Shop Now</button>
+                    <button class = "banner-shop-now-btn-2 content content-2">Shop Now</button>
                 </div>
-                <div class="middle-page-banner-2 content" id="content-3"></div>
+                <div class="middle-page-banner-2 content content-3"></div>
             </div>
             <div class="middle-page-banner-container reveal-slowly">
-                <div class="middle-page-banner-3 content" class="content-3"></div>
-                <div class="banner-img-description-3 content" id="content-3">
-                    <p class = "banner-description-title content" id="content-3">High Performance Laptop</p>
-                    <p class="banner-description content" id="content-3">Powered by Intel Core i5 & i7, these Laptops are <br>
+                <div class="middle-page-banner-3 content content-3"></div>
+                <div class="banner-img-description-3 content content-3">
+                    <p class = "banner-description-title content content-3">High Performance Laptop</p>
+                    <p class="banner-description content content-3">Powered by Intel Core i5 & i7, these Laptops are <br>
                     made to do more in every moment.</p>
-                    <button class = "banner-shop-now-btn-3 content" id="content-3">Shop Now</button>
+                    <button class = "banner-shop-now-btn-3 content content-3">Shop Now</button>
                 </div>
             </div>
             <div style="padding : 20px;" class="reveal-slowly">
@@ -206,10 +206,10 @@
                         <?php
                             $productInfo = array();
                             $productInfo = [
-                                ["img"=> "https://i.dell.com/sites/csimages/Banner_Imagery/all/in-dhs-rday-2022-vostro-15-3510-laptop.png", "alt" => "", "p1" => "New Vostro 3510 Laptop", "p2" => "₹ 60,690","p3" => "11th Generation Intel® Core™ i5-1135G7 Processor", "p4" => "Windows 11 Home", "p5" => "Intel® UHD Graphics with shared graphics memory", "p6" => "8GB, 8GBx1, DDR4, 2666MHz", "p7" => "256GB M.2 PCIe NVMe Solid State Drive (Boot) + 1TB 5400 rpm 2.5\" SATA Hard Drive (Storage)", "p8" => "39.6-cm. display", "p9" => "Starting at 1.69 kg", "id" => "content-1"],
-                                ["img"=> "https://i.dell.com/sites/csimages/Banner_Imagery/en/Indhs-republic-event-vostro-14-3401-laptop-D552126WIN9DE.png", "alt" => "", "p1" => "New Vostro 3510 Laptop", "p2" => "₹ 60,690","p3" => "11th Generation Intel® Core™ i5-1135G7 Processor", "p4" => "Windows 11 Home", "p5" => "Intel® UHD Graphics with shared graphics memory", "p6" => "8GB, 8GBx1, DDR4, 2666MHz", "p7" => "256GB M.2 PCIe NVMe Solid State Drive (Boot) + 1TB 5400 rpm 2.5\" SATA Hard Drive (Storage)", "p8" => "39.6-cm. display", "p9" => "Starting at 1.69 kg", "id" => "content-2"],
-                                ["img"=> "https://i.dell.com/sites/csimages/Banner_Imagery/all/in-dhs-rday-2022-inspiron-15-5510-laptop.png", "alt" => "", "p1" => "New Vostro 3510 Laptop", "p2" => "₹ 60,690","p3" => "11th Generation Intel® Core™ i5-1135G7 Processor", "p4" => "Windows 11 Home", "p5" => "Intel® UHD Graphics with shared graphics memory", "p6" => "8GB, 8GBx1, DDR4, 2666MHz", "p7" => "256GB M.2 PCIe NVMe Solid State Drive (Boot) + 1TB 5400 rpm 2.5\" SATA Hard Drive (Storage)", "p8" => "39.6-cm. display", "p9" => "Starting at 1.69 kg", "id" => "content-3"],
-                                ["img"=> "https://i.dell.com/sites/csimages/Banner_Imagery/all/in-dhs-rday-2022-inspiron-14-5410-laptop.png", "alt" => "", "p1" => "New Vostro 3510 Laptop", "p2" => "₹ 60,690","p3" => "11th Generation Intel® Core™ i5-1135G7 Processor", "p4" => "Windows 11 Home", "p5" => "Intel® UHD Graphics with shared graphics memory", "p6" => "8GB, 8GBx1, DDR4, 2666MHz", "p7" => "256GB M.2 PCIe NVMe Solid State Drive (Boot) + 1TB 5400 rpm 2.5\" SATA Hard Drive (Storage)", "p8" => "39.6-cm. display", "p9" => "Starting at 1.69 kg", "id" => "content-4"],
+                                ["img"=> "https://i.dell.com/sites/csimages/Banner_Imagery/all/in-dhs-rday-2022-vostro-15-3510-laptop.png", "alt" => "", "p1" => "New Vostro 3510 Laptop", "p2" => "₹ 60,690","p3" => "11th Generation Intel® Core™ i5-1135G7 Processor", "p4" => "Windows 11 Home", "p5" => "Intel® UHD Graphics with shared graphics memory", "p6" => "8GB, 8GBx1, DDR4, 2666MHz", "p7" => "256GB M.2 PCIe NVMe Solid State Drive (Boot) + 1TB 5400 rpm 2.5\" SATA Hard Drive (Storage)", "p8" => "39.6-cm. display", "p9" => "Starting at 1.69 kg", "class" => "content-1"],
+                                ["img"=> "https://i.dell.com/sites/csimages/Banner_Imagery/en/Indhs-republic-event-vostro-14-3401-laptop-D552126WIN9DE.png", "alt" => "", "p1" => "New Vostro 3510 Laptop", "p2" => "₹ 60,690","p3" => "11th Generation Intel® Core™ i5-1135G7 Processor", "p4" => "Windows 11 Home", "p5" => "Intel® UHD Graphics with shared graphics memory", "p6" => "8GB, 8GBx1, DDR4, 2666MHz", "p7" => "256GB M.2 PCIe NVMe Solid State Drive (Boot) + 1TB 5400 rpm 2.5\" SATA Hard Drive (Storage)", "p8" => "39.6-cm. display", "p9" => "Starting at 1.69 kg", "class" => "content-2"],
+                                ["img"=> "https://i.dell.com/sites/csimages/Banner_Imagery/all/in-dhs-rday-2022-inspiron-15-5510-laptop.png", "alt" => "", "p1" => "New Vostro 3510 Laptop", "p2" => "₹ 60,690","p3" => "11th Generation Intel® Core™ i5-1135G7 Processor", "p4" => "Windows 11 Home", "p5" => "Intel® UHD Graphics with shared graphics memory", "p6" => "8GB, 8GBx1, DDR4, 2666MHz", "p7" => "256GB M.2 PCIe NVMe Solid State Drive (Boot) + 1TB 5400 rpm 2.5\" SATA Hard Drive (Storage)", "p8" => "39.6-cm. display", "p9" => "Starting at 1.69 kg", "class" => "content-3"],
+                                ["img"=> "https://i.dell.com/sites/csimages/Banner_Imagery/all/in-dhs-rday-2022-inspiron-14-5410-laptop.png", "alt" => "", "p1" => "New Vostro 3510 Laptop", "p2" => "₹ 60,690","p3" => "11th Generation Intel® Core™ i5-1135G7 Processor", "p4" => "Windows 11 Home", "p5" => "Intel® UHD Graphics with shared graphics memory", "p6" => "8GB, 8GBx1, DDR4, 2666MHz", "p7" => "256GB M.2 PCIe NVMe Solid State Drive (Boot) + 1TB 5400 rpm 2.5\" SATA Hard Drive (Storage)", "p8" => "39.6-cm. display", "p9" => "Starting at 1.69 kg", "class" => "content-4"],
                             ];
                             
                             makeProducts($productInfo);

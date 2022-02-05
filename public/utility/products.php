@@ -4,7 +4,7 @@
     
         for($i = 0; $i < sizeof($products); $i++) {?>
         <!-- <div> -->
-         <div class="inner-sample-grid-display-products content" id="<?php echo $products[$i]["id"] ?>">
+         <div class="inner-sample-grid-display-products content <?php echo $products[$i]["class"]?>">
              <div class="compare">
                  <input type="checkbox" name="compare" id="compare" style="margin-left: 10px">
                  <label for="compare">Compare</label>

@@ -474,16 +474,16 @@ body{
     font-size: 18px;
 }
 
-#content-1 {
+.content-1 {
     transition: all 0.3s ease-out;
 }
-#content-2{
+.content-2{
     transition: all 0.6s ease-out;
 }
-#content-3 {
+.content-3 {
     transition: all 0.9s ease-out;
 }
-#content-4{
+.content-4{
     transition: all 1.2s ease-out;
 }
 .content.hide--section {
