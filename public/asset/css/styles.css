@@ -8,7 +8,241 @@
 }
 
 body{
-  background-color: #fff;
+   background-color: #ffffff;
+   min-height: 100vh;
+   position: relative;
+}
+
+/* Styling Hero section */
+h1{
+    text-align: center;
+    color: black;
+}
+.home-page-hero-section{
+   font-size: 25px;
+   font-weight: bold;
+}
+.heroSlides{
+   display: inline;
+   text-align: center;
+   justify-content: center;
+   transition: 5s;
+   animation: fade 20s infinite;
+   /* height: 15rem; */
+}
+.hero-image {
+    /* height: 100%; */
+    width: 100%;
+}
+.heroSlides img{
+   /* border-radius: 2em; */
+   z-index: 30;
+   margin: 0;
+   height: 18em;
+   width: 100%;
+   /* object-fit: cover; */
+}
+.first-image{
+    width: 300px;
+    height: 200px;
+}
+#navbar{
+    background-color: burlywood;
+}
+
+.home_nav{
+    /* width: 100%; */
+    display: flex;
+    justify-content: space-around;
+    /* flex-direction: column; */
+    background: rgb(231, 231, 233);
+}
+.home_nav .logo{
+    width: 5%;
+    height: 5%;
+    border-radius: 50%;
+}
+.home-page-header-search-button{
+    margin: 20px;
+    /* padding: px; */
+    /* padding-left: ; */
+    display: inline;
+    background: #fff;
+    border: none;
+    border-radius: 1em;
+    width: 40%;
+}
+.search-1{
+    /* display: inline; */
+    background-color: #ffffff;
+    border: none;
+    border-radius: 1em;
+    width: 90%;
+    height: 100%;
+    margin-left: 0px;
+
+    padding-left: 10px;
+    /* text-align: center; */
+}
+.search-1:focus {
+    border: none;
+    outline: none;
+    border-color: #fff;
+    border: 0px solid #fff;
+}
+.home-page-header-cart{
+    /* display: flex; */
+    margin: 10px;
+    padding: 10px;
+    /* color: aquamarine;  */
+}
+.home_nav_registeration{
+    /* display: block; */
+    /* margin: 10px 0 auto; */
+    padding: 20px;
+    /* font: bold; */
+}
+
+.regis{
+    margin: 30px;
+}
+.registration_nav{
+    margin: 0;
+    z-index: 10;
+    /* display: flex; */
+    width: 100vw;
+    height: 100vh;
+    background-color: rgba(0,0,0,0.5);
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: flex;
+    display: none;
+    justify-content: center;
+    align-items: center;
+}
+.registration_form_box{
+    position: absolute;
+    text-align: center;
+    opacity: 1;
+    z-index: 500;
+    text-align: center;
+    background-color: rgb(169, 202, 199);
+    width: 450px;
+    height: 500px;
+    border-radius: 8px;
+    margin: 30px;
+}
+.part-input input{
+
+    width: 60%;
+    margin: 30px auto;
+    display: block;
+    /* justify-items: center; */
+
+}
+#regi_input{
+    padding-left: 10px;
+    border: none;
+    border-radius: 8px;
+    padding: 6px;
+
+}
+#regi_input:focus{
+    border: none;
+    outline: none;
+    border-color: #f3f3f3;
+}
+.sub button{
+    outline: none;
+    border-radius: 1em;
+    /* width:30px; */
+    background-color: #c9c7c3;
+    padding:10px;
+    margin:20px auto;
+}
+.close{
+    position: absolute;
+    right: 15px;
+    font-size: 45px;
+    transform: rotate(45deg);
+    top: 0;
+    cursor: pointer;
+}
+
+
+.sticky {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 100;
+  }
+
+  /* Add some top padding to the page content to prevent sudden quick movement (as the navigation bar gets a new position at the top of the page (position:fixed and top:0) */
+  .sticky + .content {
+    padding-top: 60px;
+  }
+
+@keyframes fade{
+   0%{
+       opacity: 0.6;
+   }
+   20%{
+       opacity: 0.8;
+   }
+   50%{
+       opacity: 0.9;
+   }
+   75%{
+       opacity: 1;
+   }
+   80%{
+       opacity: 0.9;
+   }
+   90%{
+       opacity: 0.8;
+   }
+   100%{
+       opacity: 0.4;
+   }
+}
+.heroSlides{
+   font-size: 20px;
+   font-weight: bold;
+}
+.hero-text {
+    /* transform: translateY(20px); */
+    transition: transform 0.3s ease-out;
+    top: 30%;
+    position: absolute;
+    animation: animate 1s linear forwards;
+    /* color: red; */
+    /* right: 120%; */
+    width: 100%;
+    height: 0;
+    /* animation: animate 40s linear forwards; */
+    text-align: center;
+   color: rgb(12, 11, 11);
+}
+
+@keyframes animate{
+    0%{
+       /* right: -30%; */
+       opacity: 0.3;
+       transform: translateY(20px);
+
+    }
+    50%{
+        /* right: 120%; */
+        opacity: 0.6;
+        transform: translateY(10px);
+    }
+    100%{
+        /* right: -30%; */
+        opacity: 1;
+        transform: translateY(0px);
+    }
+
 }
 /* Styling the filter section */
 
@@ -56,13 +290,13 @@ body{
     height: 10px;
     width: 10px;
     transform: rotate(136deg);
-    transition: all 0.3s ease-in; 
+    transition: all 0.3s ease-in;
 }
 
 .cat-nav-filter-title .toggle-arrow.active {
     transform: rotate(-45deg);
     margin-bottom: 5px;
-} 
+}
 
 .cat-nav-filter-title:hover {
     cursor : pointer;
@@ -88,7 +322,7 @@ body{
     position: relative;
 }
 
-/* Shop by ____ title Style */ 
+/* Shop by ____ title Style */
 
 .cat-side-content-title {
     text-align: center;
@@ -184,7 +418,7 @@ body{
  {
     opacity: 1;
     transform: translateY(0px);
-} 
+}
 
 /* shop by size image styles */
 
@@ -207,7 +441,7 @@ body{
     text-align: center;
     text-decoration: none;
     font-size: 18px;
-    color: #000;  
+    color: #000;
 }
 
 /* shop by price */
@@ -362,7 +596,7 @@ body{
     background-size: cover;
     width: 60%;
     height: 350px;
-    
+
 }
 .banner-img-description-3 {
     background-color: #D189D3;
@@ -384,11 +618,11 @@ body{
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(18rem, 1fr));
     gap: 5px;
-    
+
 }
 .inner-sample-grid-display-products {
     width: min(90%, 250px);
-    padding: 10px;    
+    padding: 10px;
 }
 .sample-grid-display-products-description {
     display: flex;
@@ -420,7 +654,7 @@ body{
     transition: all 0.2s ease-in-out;
     padding: 10px;
     opacity: 0;
-   
+
 }
 .product-details div {
     margin-top: 10px;
@@ -441,7 +675,7 @@ body{
     height: 10px;
     display: block;
     transform: rotate(45deg);
-    margin: 0px auto;   
+    margin: 0px auto;
     transition: transform 0.3s ease-in-out;
 }
 .show-details.expand-rotate {
@@ -452,8 +686,8 @@ body{
     display: flex;
     margin: 15px auto;
     justify-content: center;
-      
-    
+
+
 }
 .add-to-cart-btn button {
     padding: 7px 30px;
@@ -463,7 +697,7 @@ body{
     border: none;
     border-radius: 3px;
     color: #fff;
-    font-size: 15px;  
+    font-size: 15px;
 }
 .add-to-cart-btn:hover button {
     background-color: rgb(22, 81, 129);
@@ -523,7 +757,7 @@ footer h5 {
     letter-spacing: 2px;
 }
 @media screen and (max-width: 55rem) {
-   
+
     .cat-nav-filter-options {
         display: none;
     }
@@ -552,7 +786,7 @@ footer h5 {
         margin: 0 auto;
         background: transparent;
         padding: 10px;
-        
+
     }
     .middle-page-banner {
         width: 100%;
@@ -579,4 +813,3 @@ footer h5 {
         margin-bottom: 1em;
     }
 }
-
