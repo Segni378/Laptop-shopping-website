@@ -28,26 +28,18 @@ for (let i = 0; i < showDetails.length; i++) {
 
 
 
-
-
-
 window.onscroll = function() {myFunction()};
 
 var navbar = document.getElementById("navbar");
 var sticky = navbar.offsetTop;
 
-
 function myFunction() {
-
-  console.log("Navbar " + sticky + "window " + window.pageYOffset);
   if (window.pageYOffset >= sticky) {
-    navbar.classList.add("sticky")
-  
+    navbar.classList.add("sticky");
   } else {
     navbar.classList.remove("sticky");
   }
 }
-
 
 //Hero section slide 
 
@@ -57,7 +49,7 @@ var slideIndex = 0;
 
 function carousel(){
     var i;
-    var x = document.getElementsByClassName("heroSlides");
+    var x = document.getElementsByClassName('heroSlides');
 
     for (i = 0; i < x.length; i++) {
       x[i].style.display = "none"; 
@@ -71,6 +63,23 @@ function carousel(){
     setTimeout(carousel, 6000); 
 }
 
+// Sign up section of Nav bar
+
+var x = document.getElementById("login"); 
+var y = document.getElementById("register");
+var z = document.getElementById("btn");
+function register(){
+    x.style.left = "-450px";
+    y.style.left = "50px";
+    z.style.left = "110px";
+}
+function login(){
+    x.style.left = "50px";
+    y.style.left = "450px";
+    z.style.left = "0";
+}
+
+
 
 document.getElementById('open_here').addEventListener('click', function(){
   document.querySelector('.registration_nav').style.display = 'flex';
@@ -80,9 +89,6 @@ document.querySelector('.close').addEventListener('click',
 function() {
   document.querySelector('.registration_nav').style.display = 'none';
 });
-
-
-
 
 
 

@@ -13,106 +13,97 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css" rel="stylesheet">
     <script src="asset/js/script.js" defer></script>
-    <script src="asset/js/all.js" defer></script>
-    <script src="asset/js/sticky-navbar.js" defer></script>
+    <!-- <script src="asset/js/all.js" defer></script> -->
+    <!-- <script src="asset/js/sticky-navbar.js" defer></script> -->
 </head>
 <body>
        
 <div class="home-page-hero-section">
-    
-    
-<div class="heroSlides">
-             <!-- <div class = "hero-image"> -->
-                 <img src="./image/image4.jpg">
-             <!-- <div> -->
-             <div class="hero-text">
-                 <h2>Heeeeeeeeeeee</h2>
-             </div>
-         </div>
-    
-         <div class="heroSlides">
-             <!-- <div class = "hero-image"> -->
-                 <img src="./image/image6.webp">
-             <!-- <div> -->
-             <div class="hero-text">
-                 <h2>Hayilunna taaffasa</h2>
-             </div>
-         </div>
-    
-         <div class="heroSlides">
-             <!-- <div class = "hero-image"> -->
-                 <img src="./image/image1.jpg">
-             <!-- <div> -->
-             <div class="hero-text">
-                 <h2>Hayeeesso</h2>
-             </div>
-         </div>
+    <div class="promotion-section">
+        <div class="hero-text">
+            <h2>Heeeeeeeeeeee</h2>
+        </div>
+        <!-- <div class="hero-text">
+            <h2>Hayeeesso</h2>
+        </div> -->
     </div>
+    <div class="heroSlides">
+            <img src="./image/image4.jpg">
+    </div>
+    <div class="heroSlides">
+            <img src="./image/image1.jpg">
+    </div> 
+</div>
+  
+    <!-- <div class="heroSlides">
+            <img src="./image/image6.webp">
+        <div class="hero-text">
+            <h2>Hayilunna taaffasa</h2>
+        </div>
+    </div>
+    <div class="heroSlides">
+            <img src="./image/image1.jpg">
+        <div class="hero-text">
+            <h2>Hayeeesso</h2>
+        </div>
+    </div> -->
+</div>
 
     <!-- Navigation -->
   <div id="navbar">
-            <div class="home_nav">
-            <img class="logo" src="image/home-page-logo.jpg">                     
+        <div class="home_nav">
+            <div class="logo-home-page-header-search-button">
+
+                <img class="logo" src="image/home-page-logo.jpg">                     
                 <button class= "home-page-header-search-button" type="submit">
                     <input class="search-1" type="text" placeholder="Search.." name="Search">
                     <i class="fas fa-search"></i>
                 </button>
-                <div class="home-page-header-cart">
-                    <a href="#"><i class="fa fa-shopping-cart fa-2x"></i></a>
-                </div>
-                <div class="home_nav_registeration">
-                <button id="open_here">signup</button>
-                  <!-- <div class="registration_nav">
-                        <div class="registration_form_box">
-                            <div class="registration_form_nav">
-                                <form action="" class="hee">
+            </div>
+                <div class="both_cart_sign">
+                   
+                    <div class="home-page-header-cart">
+                        <a href="#"><i class="fa fa-shopping-cart"></i></a>
+                    </div>
+                    <div class="home_nav_registeration">
+                        <button id="open_here">sign up</button>
+                        <div class="registration_nav">
+                            <div class="registration_form_box">
+                                <div class="registration_form_nav">
                                     <div class="close">+</div>
-                                    <div class="regis">
-                                        <h1>Register</h1>
+                                    <div class="button-box">
+                                        <div id="btn"></div>
+                                        <button type="button" class="toggle-btn" onclick="login()">Log In</button>
+                                        <button type="button" class="toggle-btn" onclick="register()">Register</button>
                                     </div>
-                                    <div class="part-input">
-                                        <input id="regi_input" type="text" placeholder="Name:" required>
-                                        <input id="regi_input" type="text" placeholder="Sir Name:" required>
-                                        <input id="regi_input" type="email" placeholder="email-address:" required>
-                                        <input id="regi_input" type="password" placeholder="Enter passwaord:" required>
-                                        <input id="regi_input" type="password" placeholder="Confirm password:" required>
-                                        <a href="#" class="sub"><button>Submit</button></a>
-                                        <p>Already have an account? <a href="#">Sign in</a>.</p>
+                                    <div class="social-icons">
+                                        <img src="./image/home-page-logo.jpg">
+                                        <img src="./image/home-page-logo.jpg">
+                                        <img src="./image/home-page-logo.jpg">
                                     </div>
-                                </form>
+                                    <form id="login" class="input-group">
+                                        <input type="text" class="input-field" placeholder="User Id" required>
+                                        <input type="text" class="input-field" placeholder="password" required>
+                                        <input type="checkbox" class="check-box"><span>remember password?</span>
+                                        <button type="submit" class="Submit-btn"> Log In</button>
+                                    </form>
+                                    <form id="register"class="input-group">
+                                        <input type="text" class="input-field" placeholder="Name" required>
+                                        <input type="text" class="input-field" placeholder="Surname" required>
+                                        <input type="email" class="input-field" placeholder="Email Id" required>
+                                        <input type="text" class="input-field" placeholder="password" required>
+                                        <input type="text" class="input-field" placeholder="Confirm password" required>
+                                        <input type="checkbox" class="check-box"><span>I agree to terms & conditions</span>
+                                        <button type="submit" class="Submit-btn"> Register</button>
+                                    </form>
+                                </div>
                             </div>
                         </div>
-                    </div>
-                 -->
-                 </div>
+                    </div> 
+                </div>
             </div>
         </div>
- 
-
-         <div class="registration_nav">
-                        <div class="registration_form_box">
-                            <div class="registration_form_nav">
-                                <form action="" class="hee">
-                                    <div class="close">+</div>
-                                    <div class="regis">
-                                        <h1>Register</h1>
-                                    </div>
-                                    <div class="part-input">
-                                        <input id="regi_input" type="text" placeholder="Name:" required>
-                                        <input id="regi_input" type="text" placeholder="Sir Name:" required>
-                                        <input id="regi_input" type="email" placeholder="email-address:" required>
-                                        <input id="regi_input" type="password" placeholder="Enter passwaord:" required>
-                                        <input id="regi_input" type="password" placeholder="Confirm password:" required>
-                                        <a href="#" class="sub"><button>Submit</button></a>
-                                        <p>Already have an account? <a href="#">Sign in</a>.</p>
-                                    </div>
-                                </form>
-                            </div>
-                        </div>
-                    </div>
-                
- 
-   
+        <!-- </div> -->
     <!-- Hero Section -->
 
   <!-- Main body -->
