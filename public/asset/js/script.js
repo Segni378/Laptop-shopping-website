@@ -32,7 +32,6 @@ const availableBrands = document.querySelector(".cat-available-brands").querySel
 const availableSizes = document
   .querySelector(".cat-available-size")
   .querySelectorAll("a");
-console.log(availableSizes);
 window.addEventListener("load", () => {
     for(let i = 0; i < availableBrands.length; i++) {
       availableBrands[i].classList.add("active");
@@ -80,17 +79,18 @@ sections.forEach(section => {
 
 
 
-
-window.onscroll = function() {myFunction()};
+window.onscroll = function () {
+  myFunction();
+};
 
 var navbar = document.getElementById("navbar");
 var sticky = navbar.offsetTop;
 
 function myFunction() {
   if (window.pageYOffset >= sticky) {
-    navbar.classList.add("sticky");
+    // navbar.classList.add("sticky");
   } else {
-    navbar.classList.remove("sticky");
+    // navbar.classList.remove("sticky");
   }
 }
 
@@ -98,22 +98,22 @@ function myFunction() {
 
 var slideIndex = 0;
 
-  carousel();
+carousel();
 
-function carousel(){
-    var i;
-    var x = document.getElementsByClassName('heroSlides');
+function carousel() {
+  var i;
+  var x = document.getElementsByClassName("heroSlides");
 
-    for (i = 0; i < x.length; i++) {
-      x[i].style.display = "none";
+  for (i = 0; i < x.length; i++) {
+    x[i].style.display = "none";
+  }
+  slideIndex++;
+  if (slideIndex > x.length) {
+    slideIndex = 1;
+  }
+  x[slideIndex - 1].style.display = "block";
 
-    }
-    slideIndex++;
-    if (slideIndex > x.length) {slideIndex = 1}
-    x[slideIndex-1].style.display = "block";
-
-
-    setTimeout(carousel, 6000);
+  setTimeout(carousel, 6000);
 }
 
 // Sign up section of Nav bar
@@ -121,24 +121,21 @@ function carousel(){
 var x = document.getElementById("login");
 var y = document.getElementById("register");
 var z = document.getElementById("btn");
-function register(){
-    x.style.left = "-450px";
-    y.style.left = "50px";
-    z.style.left = "110px";
+function register() {
+  x.style.left = "-450px";
+  y.style.left = "50px";
+  z.style.left = "110px";
 }
-function login(){
-    x.style.left = "50px";
-    y.style.left = "450px";
-    z.style.left = "0";
+function login() {
+  x.style.left = "50px";
+  y.style.left = "450px";
+  z.style.left = "0";
 }
 
-
-
-document.getElementById('open_here').addEventListener('click', function(){
-  document.querySelector('.registration_nav').style.display = 'flex';
+document.getElementById("open_here").addEventListener("click", function () {
+  document.querySelector(".registration_nav").style.display = "flex";
 });
 
-document.querySelector('.close').addEventListener('click',
-function() {
-  document.querySelector('.registration_nav').style.display = 'none';
+document.querySelector(".close").addEventListener("click", function () {
+  document.querySelector(".registration_nav").style.display = "none";
 });
