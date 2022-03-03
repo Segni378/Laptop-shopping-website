@@ -9,12 +9,9 @@
     <title>Shop easily with us!😊</title>
     <link rel="stylesheet" href="asset/css/styles.css">
     <link rel="stylesheet" href="asset/css/header.css">
-    <!-- <link rel="stylesheet" href="asset/css/header.css"> -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css" rel="stylesheet">
     <script src="asset/js/script.js" defer></script>
-    <!-- <script src="asset/js/all.js" defer></script> -->
-    <!-- <script src="asset/js/sticky-navbar.js" defer></script> -->
 </head>
 <body>
 
@@ -77,10 +74,25 @@
                                         <button type="button" class="toggle-btn" onclick="register()">Register</button>
                                     </div>
                                     <div class="social-icons">
+                                        <img src="./image/home-page-logo.jpg">
+                                        <img src="./image/home-page-logo.jpg">
+                                        <img src="./image/home-page-logo.jpg">
+                                    </div>
+                                    <form id="login" class="input-group">
+                                        <input type="text" class="input-field" placeholder="User Id" required>
+                                        <input type="text" class="input-field" placeholder="password" required>
+                                        <input type="checkbox" class="check-box"><span>remember password?</span>
+                                        <button type="submit" class="Submit-btn"> Log In</button>
+                                    </form>
+                                    <form id="register"class="input-group">
+                                        <input type="text" class="input-field" placeholder="Name" required>
+                                        <input type="text" class="input-field" placeholder="Surname" required>
+                                        <input type="email" class="input-field" placeholder="Email Id" required>
                                         <input type="text" class="input-field" placeholder="password" required>
                                         <input type="text" class="input-field" placeholder="Confirm password" required>
                                         <input type="checkbox" class="check-box"><span>I agree to terms & conditions</span>
                                         <button type="submit" class="Submit-btn"> Register</button>
+                                    </form>
                                 </div>
                             </div>
                         </div>
@@ -291,7 +303,22 @@
 
                 </div>
             </div>
-            <?php include 'utility/footer.php' ?>
+            
         </main>
+        <div class = "spin-image-container">
+            <div class="spin-image-responsive">
+                <div class="cloudimage-360" data-folder="image/36 laptop images for spin/"
+                data-filename-x="kutr{index}.png" data-amount-x="36" data-magnifier="2">
+                </div>
+            </div>
+            <div class="spin-image-description">
+                <p> spin 360 degree to view all the faces and
+                    click over the magnifier glass to zoom in </p>
+            </div>
+      </div>
+
+      
+      <?php include 'utility/footer.php' ?>
+        <script src="https://cdn.scaleflex.it/plugins/js-cloudimage-360-view/2.7.4/js-cloudimage-360-view.min.js"></script>
     </body>
 </html>

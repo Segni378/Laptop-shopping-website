@@ -302,6 +302,7 @@ span{
   .sticky + .content {
     padding-top: 0px;
   }
+
 /* Styling the filter section */
 
 .cat-content-container {
@@ -783,6 +784,34 @@ span{
     transform: translateY(90px);
 }
 
+/* 360 image spinning code*/
+
+.spin-image-container {
+
+    margin: 10px auto;
+   
+}
+.spin-image-responsive {
+  max-width: 570px;
+  height: 400px;
+  margin: 10px auto;
+ }
+
+
+.spin-image-description {
+    flex-direction: column;
+    text-align: center;
+    margin: 20px auto;
+    font-size: 18px;
+  }
+
+  .cloudimage-360 {
+   padding-top: 50px;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+  
 footer {
     margin-top: 100px;
     background-color: #172337;
@@ -871,3 +900,6 @@ footer h5 {
         margin-bottom: 1em;
     }
 }
+
+ 
+
