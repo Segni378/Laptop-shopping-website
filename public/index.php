@@ -8,9 +8,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Shop easily with us!😊</title>
     <link rel="stylesheet" href="asset/css/styles.css">
-    <link rel="stylesheet" href="asset/css/header.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css" rel="stylesheet">
+     <script src="https://kit.fontawesome.com/a1aef83858.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.css">
     <script src="asset/js/script.js" defer></script>
 </head>
 <body>
@@ -104,7 +105,7 @@
     <!-- Hero Section -->
 
   <!-- Main body -->
-
+  
         <main>
 
             <div class = "cat-content-container">
@@ -316,9 +317,439 @@
                     click over the magnifier glass to zoom in </p>
             </div>
       </div>
+     
+      <div class="carousel-slider-container">
 
+     
+      <div class="col-lg-12">
+      <div class="slider-content">
+        <!----------------------------- item 1  ------------------------>
+        <li class="item-a">
+          <!--box-slider--------------->
+              <div class="box">
+              <!--img-box---------->
+              <span class="wish-icon"><i class="fa fa-heart-o"></i></span>
+              <div class="slide-img">
+                <img src="image/laptop1.jpg" alt="1">
+                <!--overlayer---------->
+                <div class="overlay">
+                <!--buy-btn------>	
+                <a href="#" class="buy-btnXX">Buy Now</a>	
+                </div>
+              </div>
+              <!--detail-box--------->
+              <div class="detail-box">
+              <!--type-------->
+              <div class="type">
+              <a href="#" class="for-description">Asus VivoBook X415 
+                           X415JA-EK562TS</a>
+                  <span>35.56 cms (14")</span>
+              </div>
+              
+              <!--price-------->
+              <!-- <a href="#" class="price">₹50,990 </a> -->
+               <!-- ------------------rating ------------------>
+              <div class="thumb-content">
+                <div class="star-rating">
+                  <ul class="list-inline">
+                    <li class="list-inline-item"><i class="fa fa-star"></i></li>
+                    <li class="list-inline-item"><i class="fa fa-star"></i></li>
+                    <li class="list-inline-item"><i class="fa fa-star"></i></li>
+                    <li class="list-inline-item"><i class="fa fa-star"></i></li>
+                    <li class="list-inline-item"><i class="fa fa-star-o"></i></li>
+                  </ul>
+                </div>
+                <p class="item-price"><strike>₹55,990</strike> <b>₹50,990</b></p>
+                 <a href="#" class="button-for-Add-To-cart">Add to Cart</a>
+              </div>	
+                  
+              </div>
+              
+              </div>		
+          </li>
+          
+ <!----------------------------- item 2    ------------------------>
+
+<li class="item-b">
+  <!--box-slider--------------->
+      <div class="box">
+      <!--img-box---------->
+      <span class="wish-icon"><i class="fa fa-heart-o"></i></span>
+      <div class="slide-img">
+        <img src="image/laptop12.jpg" alt="2">
+        <!--overlayer---------->
+        <div class="overlay">
+        <!--buy-btn------>	
+        <a href="#" class="buy-btnXX">Buy Now</a>	
+        </div>
+      </div>
+      <!--detail-box--------->
+      <div class="detail-box">
+      <!--type-------->
+      <div class="type">
+      <a href="#" class="for-description">HP Pavilion Aero Laptop 13-be0190AU | HP Store India
+        
+         </a>
+      <span>43.94 cms (17.3")</span>
+      </div>
+      <!--price-------->
+      <!-- <a href="#" class="price">₹92,990</a> -->
+       <!-- ------------------rating ------------------>
+       <div class="thumb-content">
+        <div class="star-rating">
+          <ul class="list-inline">
+            <li class="list-inline-item"><i class="fa fa-star"></i></li>
+            <li class="list-inline-item"><i class="fa fa-star"></i></li>
+            <li class="list-inline-item"><i class="fa fa-star"></i></li>
+            <li class="list-inline-item"><i class="fa fa-star"></i></li>
+            <li class="list-inline-item"><i class="fa fa-star-o"></i></li>
+          </ul>
+        </div>
+        <p class="item-price"><strike>₹57,990</strike> <b>₹60,990</b></p>
+         <a href="#" class="button-for-Add-To-cart">Add to Cart</a>
+      </div>	
+          
+      </div>
+      
+      </div>		
+  </li>
+
+<!------------------------------item 3 --------------------------->
+<li class="item-c">
+  <!--box-slider--------------->
+      <div class="box">
+      <!--img-box---------->
+      <span class="wish-icon"><i class="fa fa-heart-o"></i></span>
+      <div class="slide-img">
+        <img src="image/laptop7.jpg" alt="7">
+      <!--overlayer---------->
+      <div class="overlay">
+      <!--buy-btn------>	
+      <a href="#" class="buy-btnXX">Buy Now</a>	
+      </div>
+      </div>
+      <!--detail-box--------->
+      <div class="detail-box">
+      <!--type-------->
+      <div class="type">
+      <a href="#" class="for-description">Asus VivoBook M515 M515DA-BQ312TS</a>
+      <span>39.62 cms (15.6")</span>
+      </div>
+      <!--price-------->
+      <!-- <a href="#" class="price">₹33,990</a> -->
+
+      <!-- ------------------rating ------------------>
+      <div class="thumb-content">
+        <div class="star-rating">
+          <ul class="list-inline">
+            <li class="list-inline-item"><i class="fa fa-star"></i></li>
+            <li class="list-inline-item"><i class="fa fa-star"></i></li>
+            <li class="list-inline-item"><i class="fa fa-star"></i></li>
+            <li class="list-inline-item"><i class="fa fa-star"></i></li>
+            <li class="list-inline-item"><i class="fa fa-star-o"></i></li>
+          </ul>
+        </div>
+        <p class="item-price"><strike>₹55,990</strike> <b>₹50,990</b></p>
+         <a href="#" class="button-for-Add-To-cart">Add to Cart</a>
+      </div>	
+          
+      </div>
+      
+      </div>		
+  </li>
+<!-----------------------------item 4----------------------------->
+<li class="item-d">
+  <!--box-slider--------------->
+      <div class="box">
+      <!--img-box---------->
+      <span class="wish-icon"><i class="fa fa-heart-o"></i></span>
+      <div class="slide-img">
+        <img src="image/laptop2.jpg" alt="12">
+      <!--overlayer---------->
+      <div class="overlay">
+      <!--buy-btn------>	
+      <a href="#" class="buy-btnXX">Buy Now</a>	
+      </div>
+      </div>
+      <!--detail-box--------->
+      <div class="detail-box">
+        <!--type-------->
+          <div class="type">
+          <a href="#" class="for-description">ASUS ROG Zephyrus G14 GA401QH-HZ077TS</a>
+          <span>35.56 cms (14")</span>
+          </div>
+        <!--price-------->
+        <!-- <a href="#" class="price">₹90,990</a> -->
+            
+    <!-- ------------------rating ------------------>
+          <div class="thumb-content">
+            <div class="star-rating">
+              <ul class="list-inline">
+                <li class="list-inline-item"><i class="fa fa-star"></i></li>
+                <li class="list-inline-item"><i class="fa fa-star"></i></li>
+                <li class="list-inline-item"><i class="fa fa-star"></i></li>
+                <li class="list-inline-item"><i class="fa fa-star"></i></li>
+                <li class="list-inline-item"><i class="fa fa-star-o"></i></li>
+              </ul>
+            </div>
+            <p class="item-price"><strike>₹55,990</strike> <b>₹50,990</b></p>
+            <a href="#" class="button-for-Add-To-cart">Add to Cart</a>
+          </div>	
+
+      </div>
+      
+      </div>		
+  </li>
+<!---------------------------item 5----------------------------->
+<li class="item-e">
+  <!--box-slider--------------->
+      <div class="box">
+      <!--img-box---------->
+      <span class="wish-icon"><i class="fa fa-heart-o"></i></span>
+      <div class="slide-img">
+        <img src="image/laptop13.jpg" alt="13">
+      <!--overlayer---------->
+      <div class="overlay">
+      <!--buy-btn------>	
+      <a href="#" class="buy-btnXX">Buy Now</a>	
+      </div>
+      </div>
+      <!--detail-box--------->
+      <div class="detail-box">
+      <!--type-------->
+      <div class="type">
+      <a href="#" class="for-description">Asus VivoBook X509 
+          X509FA-EJ311TS</a>
+      <span>39.62 cms (15.6")</span>
+      </div>
+      <!--price-------->
+      <!-- <a href="#" class="price">₹37,990</a> -->
+
+       <!-- ------------------rating ------------------>
+       <div class="thumb-content">
+        <div class="star-rating">
+          <ul class="list-inline">
+            <li class="list-inline-item"><i class="fa fa-star"></i></li>
+            <li class="list-inline-item"><i class="fa fa-star"></i></li>
+            <li class="list-inline-item"><i class="fa fa-star"></i></li>
+            <li class="list-inline-item"><i class="fa fa-star"></i></li>
+            <li class="list-inline-item"><i class="fa fa-star-o"></i></li>
+          </ul>
+        </div>
+        <p class="item-price"><strike>₹55,990</strike> <b>₹50,990</b></p>
+         <a href="#" class="button-for-Add-To-cart">Add to Cart</a>
+      </div>	
+          
+      </div>
+      
+      </div>		
+  </li>
+<!-----------------------------item 6----------------------------->
+<li class="item-f">
+  <!--box-slider--------------->
+      <div class="box">
+      <!--img-box---------->
+      <span class="wish-icon"><i class="fa fa-heart-o"></i></span>
+      <div class="slide-img">
+        <img src="image/laptop15.jpg" alt="15">
+      <!--overlayer---------->
+      <div class="overlay">
+      <!--buy-btn------>	
+      <a href="#" class="buy-btnXX">Buy Now</a>	
+      </div>
+      </div>
+      <!--detail-box--------->
+      <div class="detail-box">
+      <!--type-------->
+      <div class="type">
+      <a href="#" class="for-description">ASUS TUF Dash F15 
+          FX516PM-AZ153TS</a>
+      <span>39.62 cms (15.6")</span>
+      </div>
+      <!--price-------->
+      <!-- <a href="#" class="price">₹1,28,990</a> -->
+
+       <!-- ------------------rating ------------------>
+       <div class="thumb-content">
+        <div class="star-rating">
+          <ul class="list-inline">
+            <li class="list-inline-item"><i class="fa fa-star"></i></li>
+            <li class="list-inline-item"><i class="fa fa-star"></i></li>
+            <li class="list-inline-item"><i class="fa fa-star"></i></li>
+            <li class="list-inline-item"><i class="fa fa-star"></i></li>
+            <li class="list-inline-item"><i class="fa fa-star-o"></i></li>
+          </ul>
+        </div>
+        <!-- <div> -->
+          <p class="item-price"><strike>₹55,990</strike> <b>₹50,990</b></p>
+           <a href="#" class="button-for-Add-To-cart">Add to Cart</a>
+
+        <!-- </div> -->
+      </div>	
+          
+      </div>
+      
+      </div>		
+  </li>
+  <!-------------------------------item 7 ------------------------------->
+  
+  <li class="item-g">
+      <!--box-slider--------------->
+          <div class="box">
+          <!--img-box---------->
+          <span class="wish-icon"><i class="fa fa-heart-o"></i></span>
+          <div class="slide-img">
+            <img src="image/laptop17.jpg" alt="17">
+          <!--overlayer---------->
+          <div class="overlay">
+          <!--buy-btn------>	
+          <a href="#" class="buy-btnXX">Buy Now</a>	
+          </div>
+          </div>
+          <!--detail-box--------->
+          <div class="detail-box">
+          <!--type-------->
+          <div class="type">
+          <a href="#" class="for-description">ASUS ZenBook Flip 13 
+                  UX363EA-HP501TS</a>
+          <span>33.78 cms (13.3")</span>
+          </div>
+          <!--price-------->
+          <!-- <a href="#" class="price">₹94,990</a> -->
+
+           <!-- ------------------rating ------------------>
+           <div class="thumb-content">
+            <div class="star-rating">
+              <ul class="list-inline">
+                <li class="list-inline-item"><i class="fa fa-star"></i></li>
+                <li class="list-inline-item"><i class="fa fa-star"></i></li>
+                <li class="list-inline-item"><i class="fa fa-star"></i></li>
+                <li class="list-inline-item"><i class="fa fa-star"></i></li>
+                <li class="list-inline-item"><i class="fa fa-star-o"></i></li>
+              </ul>
+            </div>
+            <p class="item-price"><strike>₹55,990</strike> <b>₹50,990</b></p>
+             <a href="#" class="button-for-Add-To-cart">Add to Cart</a>
+          </div>	
+              
+          <!-- </div> -->
+          
+          </div>		
+      </li>
+
+      <!-------------------------------item 8 -------------------------->
+      
+<li class="item-h">
+  <!--box-slider--------------->
+      <div class="box">
+      <!--img-box---------->
+      <span class="wish-icon"><i class="fa fa-heart-o"></i></span>
+      <div class="slide-img">
+        <img src="image/laptop18.jpg" alt="18">
+      <!--overlayer---------->
+      <div class="overlay">
+      <!--buy-btn------>	
+      <a href="#" class="buy-btnXX">Buy Now</a>	
+      </div>
+      </div>
+      <!--detail-box--------->
+      <div class="detail-box">
+      <!--type-------->
+      <div class="type">
+      <a href="#" class="for-description">ASUS VivoBook Ultra 
+          K14 KM413UA-EB702TS</a>
+      <span>35.56 cms (14")</span>
+      </div>
+      <!--price-------->
+      <!-- <a href="#" class="price">₹67,990</a> -->
+
+       <!-- ------------------rating ------------------>
+       <div class="thumb-content">
+        <div class="star-rating">
+          <ul class="list-inline">
+            <li class="list-inline-item"><i class="fa fa-star"></i></li>
+            <li class="list-inline-item"><i class="fa fa-star"></i></li>
+            <li class="list-inline-item"><i class="fa fa-star"></i></li>
+            <li class="list-inline-item"><i class="fa fa-star"></i></li>
+            <li class="list-inline-item"><i class="fa fa-star-o"></i></li>
+          </ul>
+        </div>
+        <p class="item-price"><strike>₹55,990</strike> <b>₹50,990</b></p>
+         <a href="#" class="button-for-Add-To-cart">Add to Cart</a>
+      </div>	
+          
+      </div>
+      
+      </div>		
+  </li>
+
+
+        </div>
+      </div>
+     
+      <div class="arrow_prev">
+          <span><i class="fa-solid fa-angles-left"></i></span>
+         </div>
+         <div class="arrow_next">
+           <span><i class="fa-solid fa-angles-right"></i></span>
+          </div>
+    </div>
+
+  </div>
+    <!-- </section> -->
       
       <?php include 'utility/footer.php' ?>
+
+      <!-- Carousel resources -->
+        <script
+                  src="https://code.jquery.com/jquery-3.6.0.min.js"
+                  integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4="
+                  crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.js"></script>
+        <script>
+            $('.slider-content').slick({
+       prevArrow: '.arrow_prev',  
+       nextArrow: '.arrow_next',
+      dots: false,
+      infinite: true,
+      speed: 300,
+      slidesToShow: 4,
+      slidesToScroll: 1,
+      responsive: [
+        {
+          breakpoint: 1024,
+          settings: {
+            slidesToShow: 3,
+            slidesToScroll: 1,
+            infinite: true,
+            dots: false
+          }
+        },
+        {
+          breakpoint: 600,
+          settings: {
+            slidesToShow: 2,
+            slidesToScroll: 1
+          }
+        },
+        {
+          breakpoint: 480,
+          settings: {
+            slidesToShow: 1,
+            slidesToScroll: 1
+          }
+        }
+        
+      ]
+    });
+        </script>
         <script src="https://cdn.scaleflex.it/plugins/js-cloudimage-360-view/2.7.4/js-cloudimage-360-view.min.js"></script>
+    <script>
+      $(document).ready(function(){
+          $(".wish-icon i").click(function(){
+              $(this).toggleClass("fa-heart fa-heart-o");
+            });
+      });	
+      </script>
     </body>
 </html>

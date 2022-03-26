@@ -1,0 +1,172 @@
+* {
+    maring: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+
+     /* overflow: hidden; */
+}
+
+.admin-login {
+    background-image: url('https://media.istockphoto.com/photos/isolated-high-tech-open-laptop-with-abstract-vibrant-color-screen-on-picture-id1248263998?b=1&k=20&m=1248263998&s=170667a&w=0&h=ZWfzsOu_mANce0SzWwxCKYj0RUioQLGpSV4I1VK51hY=');
+    background-repeat: no-repeat;
+    background-position: right;
+    background-size: cover;
+    height: 100vh;
+    display: flex;    
+    justify-content:center;
+    align-items:center;
+   
+    background-color: rgba(255, 255, 255, .9);
+}
+.admin-login-outer-cointainer {
+    
+    height: 90%;
+    width: 65%;
+    border-radius: 15px;
+    padding: 50px 0px 50px 0px;
+    display: flex;
+    justify-content:center;
+    align-items:center;
+    z-index: 2;
+}
+
+
+.admin-login-container {
+    
+    width: 90%;
+    height: 100%;
+    display: flex;
+}
+
+.admin-login-detail {
+    height: 100%;
+    width: 50%;
+    background-color: lightgrey;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    text-align: center;
+
+}
+.admin-login-title {
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding-left: 20px;
+}
+.admin-login-detail form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-end;
+}
+.admin-login-detail button{
+    margin-top: 10px;
+    padding: 5px;
+    width: 100px;
+}
+
+.admin-login-detail input {
+    width: 200px;
+    margin: 10px;
+    border: none;
+    padding: 5px;
+    outline: none;
+}
+.admin-login-image {
+
+    background-image: url('https://media.istockphoto.com/photos/isolated-high-tech-open-laptop-with-abstract-vibrant-color-screen-on-picture-id1248263998?b=1&k=20&m=1248263998&s=170667a&w=0&h=ZWfzsOu_mANce0SzWwxCKYj0RUioQLGpSV4I1VK51hY=');
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100%;
+    width: 50%;
+    object-fit: cover;
+    color: #fff;    
+    padding: 10px;
+    text-align: center;
+    font-size:17px;
+    position: relative;
+}
+
+.admin-login-image p {
+    text-align: center;
+    margin: 30px auto;
+}
+
+.admin-login-image span {
+    padding: 10px;
+}
+.admin-login-image .login-span {
+    position: absolute;
+    bottom: 20px;
+    right: 0;
+    left: 0;
+}
+
+.admin-login-error {
+    color: red;
+}
+
+.admin-login-overlay {
+    position: absolute;
+    top: 0;
+    left:0;
+    width: 100%;
+    height: 100%;
+    background-color:rgba(0,0,0,0.5);
+    backdrop-filter: blur(0.3rem);    
+}
+
+/* Admin panel main section */
+
+.add-category-btn {
+    position: relative;
+}
+
+.add-category-btn {
+    position: absolute;
+    margin-top: 20px;
+    right: 20px;
+}
+.container {
+    margin-top: 40px;
+}
+
+.active-status, .deactive-status, .delete-category, .edit-category {
+    padding : 5px;
+    border-radius: 5px;
+}
+
+.active-status {
+    background-color: Green;
+}
+.deactive-status {
+    background-color: yellow;
+}
+
+.active-status a, .deactive-status a, .delete-category a, .edit-category a{
+    text-decoration: none;
+    color: #fff;
+}
+
+.delete-category {
+    background-color: red;
+  
+}
+
+.edit-category{
+    background-color: lightblue;
+}
+.field-error {
+    color: red;
+    margin-left: 15px;
+}
