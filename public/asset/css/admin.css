@@ -170,3 +170,11 @@ body {
     color: red;
     margin-left: 15px;
 }
+
+.hidden {
+    display: none;
+}
+
+.nav-item .nav-link {
+    color: #000;
+}

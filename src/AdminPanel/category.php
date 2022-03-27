@@ -1,8 +1,4 @@
 <?php
- include('admin-panel.php'); 
- require('check-if-logged-in.php');
-
-
     if(isset($_GET['type']) && $_GET['type'] != '') {
         $type = get_safe_value($con, $_GET['type']);
         $id = get_safe_value($con, $_GET['id']);
@@ -30,9 +26,10 @@
     $res = mysqli_query($con, $query);
 
 ?>
-    <main class="main-section col px-0 flex-grow-1">
+
+    <div class = "tab-pane fade show active" id="category" role="tabpanel" aria-labelledby="nav-category-tab">
         <div class="add-category-success"><?php echo $add_category?></div>
-        <div class="add-category-btn"><a href="add-category.php"><button type="button" class="btn btn-warning">Add Category</button></a></div>
+        <div class="add-category-btn"><button type="button" class="btn btn-warning" onclick="showAddCatForm();">Add Category</button></div>
         <div class="container py-3">
             <article>
                 <h1 class="font-weight-light">Categories</h1>
@@ -65,13 +62,5 @@
                 </tbody>
                 </table>
         </div>
-        </main>
-     </div>
-    </div>
+</div>
 
-
-    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js" integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous"></script>
-
-    </body>
-</html>

@@ -14,7 +14,7 @@
             $_SESSION['ADMIN_LOGGED_IN'] = 'yes';
             $_SESSION['ADMIN_EMAIL'] = $email;
 
-            header("Location:category.php");
+            header("Location:admin-panel.php");
             die();
          }
          else {
