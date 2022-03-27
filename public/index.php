@@ -30,9 +30,9 @@
     </div>
     <div class="heroSlides">
             <img src="./image/image1.jpg">
-    </div> 
+    </div>
 </div>
-  
+
     <!-- <div class="heroSlides">
             <img src="./image/image6.webp">
         <div class="hero-text">
@@ -52,14 +52,14 @@
         <div class="home_nav">
             <div class="logo-home-page-header-search-button">
 
-                <img class="logo" src="image/home-page-logo.jpg">                     
+                <img class="logo" src="image/home-page-logo.jpg">
                 <button class= "home-page-header-search-button" type="submit">
                     <input class="search-1" type="text" placeholder="Search.." name="Search">
                     <i class="fas fa-search"></i>
                 </button>
             </div>
                 <div class="both_cart_sign">
-                   
+
                     <div class="home-page-header-cart">
                         <a href="#"><i class="fa fa-shopping-cart"></i></a>
                     </div>
@@ -97,7 +97,7 @@
                                 </div>
                             </div>
                         </div>
-                    </div> 
+                    </div>
                 </div>
             </div>
         </div>
@@ -105,7 +105,7 @@
     <!-- Hero Section -->
 
   <!-- Main body -->
-  
+
         <main>
 
             <div class = "cat-content-container">
@@ -304,7 +304,7 @@
 
                 </div>
             </div>
-            
+
         </main>
         <div class = "spin-image-container">
             <div class="spin-image-responsive">
@@ -317,10 +317,10 @@
                     click over the magnifier glass to zoom in </p>
             </div>
       </div>
-     
+
       <div class="carousel-slider-container">
 
-     
+
       <div class="col-lg-12">
       <div class="slider-content">
         <!----------------------------- item 1  ------------------------>
@@ -333,19 +333,19 @@
                 <img src="image/laptop1.jpg" alt="1">
                 <!--overlayer---------->
                 <div class="overlay">
-                <!--buy-btn------>	
-                <a href="#" class="buy-btnXX">Buy Now</a>	
+                <!--buy-btn------>
+                <a href="#" class="buy-btnXX">Buy Now</a>
                 </div>
               </div>
               <!--detail-box--------->
               <div class="detail-box">
               <!--type-------->
               <div class="type">
-              <a href="#" class="for-description">Asus VivoBook X415 
+              <a href="#" class="for-description">Asus VivoBook X415
                            X415JA-EK562TS</a>
                   <span>35.56 cms (14")</span>
               </div>
-              
+
               <!--price-------->
               <!-- <a href="#" class="price">₹50,990 </a> -->
                <!-- ------------------rating ------------------>
@@ -361,13 +361,13 @@
                 </div>
                 <p class="item-price"><strike>₹55,990</strike> <b>₹50,990</b></p>
                  <a href="#" class="button-for-Add-To-cart">Add to Cart</a>
-              </div>	
-                  
               </div>
-              
-              </div>		
+
+              </div>
+
+              </div>
           </li>
-          
+
  <!----------------------------- item 2    ------------------------>
 
 <li class="item-b">
@@ -379,8 +379,8 @@
         <img src="image/laptop12.jpg" alt="2">
         <!--overlayer---------->
         <div class="overlay">
-        <!--buy-btn------>	
-        <a href="#" class="buy-btnXX">Buy Now</a>	
+        <!--buy-btn------>
+        <a href="#" class="buy-btnXX">Buy Now</a>
         </div>
       </div>
       <!--detail-box--------->
@@ -388,7 +388,7 @@
       <!--type-------->
       <div class="type">
       <a href="#" class="for-description">HP Pavilion Aero Laptop 13-be0190AU | HP Store India
-        
+
          </a>
       <span>43.94 cms (17.3")</span>
       </div>
@@ -407,11 +407,11 @@
         </div>
         <p class="item-price"><strike>₹57,990</strike> <b>₹60,990</b></p>
          <a href="#" class="button-for-Add-To-cart">Add to Cart</a>
-      </div>	
-          
       </div>
-      
-      </div>		
+
+      </div>
+
+      </div>
   </li>
 
 <!------------------------------item 3 --------------------------->
@@ -424,8 +424,8 @@
         <img src="image/laptop7.jpg" alt="7">
       <!--overlayer---------->
       <div class="overlay">
-      <!--buy-btn------>	
-      <a href="#" class="buy-btnXX">Buy Now</a>	
+      <!--buy-btn------>
+      <a href="#" class="buy-btnXX">Buy Now</a>
       </div>
       </div>
       <!--detail-box--------->
@@ -451,11 +451,11 @@
         </div>
         <p class="item-price"><strike>₹55,990</strike> <b>₹50,990</b></p>
          <a href="#" class="button-for-Add-To-cart">Add to Cart</a>
-      </div>	
-          
       </div>
-      
-      </div>		
+
+      </div>
+
+      </div>
   </li>
 <!-----------------------------item 4----------------------------->
 <li class="item-d">
@@ -467,8 +467,8 @@
         <img src="image/laptop2.jpg" alt="12">
       <!--overlayer---------->
       <div class="overlay">
-      <!--buy-btn------>	
-      <a href="#" class="buy-btnXX">Buy Now</a>	
+      <!--buy-btn------>
+      <a href="#" class="buy-btnXX">Buy Now</a>
       </div>
       </div>
       <!--detail-box--------->
@@ -480,7 +480,7 @@
           </div>
         <!--price-------->
         <!-- <a href="#" class="price">₹90,990</a> -->
-            
+
     <!-- ------------------rating ------------------>
           <div class="thumb-content">
             <div class="star-rating">
@@ -494,11 +494,11 @@
             </div>
             <p class="item-price"><strike>₹55,990</strike> <b>₹50,990</b></p>
             <a href="#" class="button-for-Add-To-cart">Add to Cart</a>
-          </div>	
+          </div>
 
       </div>
-      
-      </div>		
+
+      </div>
   </li>
 <!---------------------------item 5----------------------------->
 <li class="item-e">
@@ -510,15 +510,15 @@
         <img src="image/laptop13.jpg" alt="13">
       <!--overlayer---------->
       <div class="overlay">
-      <!--buy-btn------>	
-      <a href="#" class="buy-btnXX">Buy Now</a>	
+      <!--buy-btn------>
+      <a href="#" class="buy-btnXX">Buy Now</a>
       </div>
       </div>
       <!--detail-box--------->
       <div class="detail-box">
       <!--type-------->
       <div class="type">
-      <a href="#" class="for-description">Asus VivoBook X509 
+      <a href="#" class="for-description">Asus VivoBook X509
           X509FA-EJ311TS</a>
       <span>39.62 cms (15.6")</span>
       </div>
@@ -538,11 +538,11 @@
         </div>
         <p class="item-price"><strike>₹55,990</strike> <b>₹50,990</b></p>
          <a href="#" class="button-for-Add-To-cart">Add to Cart</a>
-      </div>	
-          
       </div>
-      
-      </div>		
+
+      </div>
+
+      </div>
   </li>
 <!-----------------------------item 6----------------------------->
 <li class="item-f">
@@ -554,15 +554,15 @@
         <img src="image/laptop15.jpg" alt="15">
       <!--overlayer---------->
       <div class="overlay">
-      <!--buy-btn------>	
-      <a href="#" class="buy-btnXX">Buy Now</a>	
+      <!--buy-btn------>
+      <a href="#" class="buy-btnXX">Buy Now</a>
       </div>
       </div>
       <!--detail-box--------->
       <div class="detail-box">
       <!--type-------->
       <div class="type">
-      <a href="#" class="for-description">ASUS TUF Dash F15 
+      <a href="#" class="for-description">ASUS TUF Dash F15
           FX516PM-AZ153TS</a>
       <span>39.62 cms (15.6")</span>
       </div>
@@ -585,14 +585,14 @@
            <a href="#" class="button-for-Add-To-cart">Add to Cart</a>
 
         <!-- </div> -->
-      </div>	
-          
       </div>
-      
-      </div>		
+
+      </div>
+
+      </div>
   </li>
   <!-------------------------------item 7 ------------------------------->
-  
+
   <li class="item-g">
       <!--box-slider--------------->
           <div class="box">
@@ -602,15 +602,15 @@
             <img src="image/laptop17.jpg" alt="17">
           <!--overlayer---------->
           <div class="overlay">
-          <!--buy-btn------>	
-          <a href="#" class="buy-btnXX">Buy Now</a>	
+          <!--buy-btn------>
+          <a href="#" class="buy-btnXX">Buy Now</a>
           </div>
           </div>
           <!--detail-box--------->
           <div class="detail-box">
           <!--type-------->
           <div class="type">
-          <a href="#" class="for-description">ASUS ZenBook Flip 13 
+          <a href="#" class="for-description">ASUS ZenBook Flip 13
                   UX363EA-HP501TS</a>
           <span>33.78 cms (13.3")</span>
           </div>
@@ -630,15 +630,15 @@
             </div>
             <p class="item-price"><strike>₹55,990</strike> <b>₹50,990</b></p>
              <a href="#" class="button-for-Add-To-cart">Add to Cart</a>
-          </div>	
-              
+          </div>
+
           <!-- </div> -->
-          
-          </div>		
+
+          </div>
       </li>
 
       <!-------------------------------item 8 -------------------------->
-      
+
 <li class="item-h">
   <!--box-slider--------------->
       <div class="box">
@@ -648,15 +648,15 @@
         <img src="image/laptop18.jpg" alt="18">
       <!--overlayer---------->
       <div class="overlay">
-      <!--buy-btn------>	
-      <a href="#" class="buy-btnXX">Buy Now</a>	
+      <!--buy-btn------>
+      <a href="#" class="buy-btnXX">Buy Now</a>
       </div>
       </div>
       <!--detail-box--------->
       <div class="detail-box">
       <!--type-------->
       <div class="type">
-      <a href="#" class="for-description">ASUS VivoBook Ultra 
+      <a href="#" class="for-description">ASUS VivoBook Ultra
           K14 KM413UA-EB702TS</a>
       <span>35.56 cms (14")</span>
       </div>
@@ -676,17 +676,17 @@
         </div>
         <p class="item-price"><strike>₹55,990</strike> <b>₹50,990</b></p>
          <a href="#" class="button-for-Add-To-cart">Add to Cart</a>
-      </div>	
-          
       </div>
-      
-      </div>		
+
+      </div>
+
+      </div>
   </li>
 
 
         </div>
       </div>
-     
+
       <div class="arrow_prev">
           <span><i class="fa-solid fa-angles-left"></i></span>
          </div>
@@ -697,7 +697,7 @@
 
   </div>
     <!-- </section> -->
-      
+
       <?php include 'utility/footer.php' ?>
 
       <!-- Carousel resources -->
@@ -708,7 +708,7 @@
         <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.js"></script>
         <script>
             $('.slider-content').slick({
-       prevArrow: '.arrow_prev',  
+       prevArrow: '.arrow_prev',
        nextArrow: '.arrow_next',
       dots: false,
       infinite: true,
@@ -739,7 +739,7 @@
             slidesToScroll: 1
           }
         }
-        
+
       ]
     });
         </script>
@@ -749,7 +749,7 @@
           $(".wish-icon i").click(function(){
               $(this).toggleClass("fa-heart fa-heart-o");
             });
-      });	
+      });
       </script>
     </body>
 </html>
