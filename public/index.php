@@ -158,7 +158,7 @@
                             </div>
                             <div class = "cat-shop-by-brand">
                                 <div class = "cat-available-brands">
-                                    <a href="#" id="brand-4">
+                                    <a href="./utility/Single_page.php" id="brand-4">
                                         <div class = "cat-brand-img" >
                                         <img src="https://cdn.shopclues.com/images/banners/Work/wired_laptop_clp/Top_Brands_HP.jpg" alt="HP Laptop">
                                         </div>

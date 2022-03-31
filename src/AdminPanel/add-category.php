@@ -1,4 +1,7 @@
 <?php
+    require('../../config/connection.inc.php');
+    require('../../config/functions.inc.php');
+    require('check-if-logged-in.php');
     $category="";
     $msg = "";
     if(isset($_GET['id']) && $_GET['id']!="") {
@@ -46,26 +49,3 @@
         
     }
 ?>
-<main class="main-section col px-0 flex-grow-1">
-        <div class = "content pb-0">
-            <div class = "animated fadeIn">
-                <div class="col-lg-12">
-                    <div class="card">
-                        <div class="card-header"><strong>Categories</strong><small>&nbsp;Form</small></div>
-                    </div>
-                    <form method="post">
-                        <div class="card-body card-block">
-                            <div class="form-group mb-2">
-                                <label for="category" class="form-control-label">Category</label>
-                                <input type="text" name="category" class="form-control" placeholder="Enter category name..." value="<?php echo $category?>"  required>
-                            </div>
-                            <button type="submit" name="submit" class="btn btn-primary"id="payment-button" class="btn btn-lg btn-info btn-block"><span class="payment-button-amound"><?php if($category!="") echo "Update"; else echo "Add";?></span></button>
-                        </div>
-                    </form>
-                    <div class = "field-error"><?php echo $msg?></div>
-                </div>
-            </div> 
-        </div> 
-    </main>
- 
-<?php require("./admin-footer.php");?>

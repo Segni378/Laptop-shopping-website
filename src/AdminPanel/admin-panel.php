@@ -16,6 +16,11 @@
     <title>Admin Panel</title>
     <link rel="stylesheet" href="../../public/asset/css/admin.css">
 
+    <style>
+        .hidden {
+            display: none;
+        }
+    </style>
 </head>
 <body>
     
@@ -49,7 +54,7 @@
                 </nav>
              </aside>
             <main class="main-section col px-0 tab-content flex-grow-1" id = "tab-content">
-                <?php include('./category.php');?>
+                <?php require('./category.php');?>
                 <?php include('./product.php') ?>
             </main>
         </div>
@@ -61,8 +66,9 @@
     <script>
         
         const showAddCatForm = (clickedLink) => {
-            const category = document.querySelector("#category");   
-             category.classList.toggle("hidden");
+            const category = document.querySelector(".category");   
+            category.classList.toggle("hidden");
+             
             const addCategory = document.querySelector("#add-category");
             addCategory.classList.toggle("hidden");
         }   

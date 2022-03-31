@@ -2,7 +2,7 @@
         <div class = "footer-section">
             <h5>ABOUT</h5>
             <ul>
-                <a href="#"><li>Contact Us</li></a>
+                <a href="../src/Contact-us/contact-us.php" target="_blank"><li>Contact Us</li></a>
                 <a href="#"><li>About Us</li></a>
                 <a href="#"><li>Awards and higlights</li></a>
             </ul>
