@@ -1,5 +1,6 @@
 <?php include 'utility/Filters.php'?>
-<?php include 'utility/products.php' ?>
+<?php include 'utility/products.php'?>
+<?php include '../src/user/login.php'?>
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -79,20 +80,23 @@
                                         <img src="./image/home-page-logo.jpg">
                                         <img src="./image/home-page-logo.jpg">
                                     </div>
-                                    <form id="login" class="input-group">
-                                        <input type="text" class="input-field" placeholder="User Id" required>
-                                        <input type="text" class="input-field" placeholder="password" required>
+                                    <form id="login" class="input-group" method="POST" action="login.php">
+                                        <input type="text" name="User_Id"class="input-field" placeholder="User_Id" required>
+                                        <input type="text" name="password"class="input-field" placeholder="password" required>
                                         <input type="checkbox" class="check-box"><span>remember password?</span>
-                                        <button type="submit" class="Submit-btn"> Log In</button>
+                                        <button type="submit" name="submit-btn"class="Submit-btn"> Log In</button>
+                                
+                                        <div><?php echo $msg?></div>   
                                     </form>
+                                                                    
                                     <form id="register"class="input-group">
-                                        <input type="text" class="input-field" placeholder="Name" required>
-                                        <input type="text" class="input-field" placeholder="Surname" required>
-                                        <input type="email" class="input-field" placeholder="Email Id" required>
-                                        <input type="text" class="input-field" placeholder="password" required>
-                                        <input type="text" class="input-field" placeholder="Confirm password" required>
+                                        <input type="text" name="Name" class="input-field" placeholder="Name" required>
+                                        <input type="text" name="Surname" class="input-field" placeholder="Surname" required>
+                                        <input type="email" name="Email Id" class="input-field" placeholder="Email Id" required>
+                                        <input type="text" name="password" class="input-field" placeholder="password" required>
+                                        <input type="text" name="Confirm-Password" class="input-field" placeholder="Confirm password" required>
                                         <input type="checkbox" class="check-box"><span>I agree to terms & conditions</span>
-                                        <button type="submit" class="Submit-btn"> Register</button>
+                                        <button type="submit" name="Register" class="Submit-btn"> Register</button>
                                     </form>
                                 </div>
                             </div>
